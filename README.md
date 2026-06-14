@@ -1,102 +1,132 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+# victorkonara.com
 
-<p align="center">A video walkthrough of various Just the Docs features</p>
+This is the source for [victorkonara.com](https://victorkonara.com) — home of *A Sorcerer's Tail* and the Imperial Archive.
 
-https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
+The site is built with [Jekyll](https://jekyllrb.com) and is a customized version of the [Just the Docs](https://just-the-docs.com) theme (MIT licensed — see [LICENSE.txt](LICENSE.txt)). Just the Docs normally powers documentation sites; here it's been reworked into an author site with a home page, a books shelf, a "World" reference section (built on the theme's docs/navigation system), an updates blog, and an about page.
 
-## Installation
+This README is aimed at the author (or anyone helping out) making day-to-day content changes — adding books, updating the World, posting news, and tweaking the look of the site.
 
-### Use the template
+## Previewing the site locally
 
-The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
+1. Install [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/).
+2. From the project root, install dependencies:
+   ```shell
+   bundle install
+   ```
+3. Start the local preview server:
+   ```shell
+   bundle exec jekyll serve
+   ```
+4. Open `http://localhost:4000` in a browser. The server watches for file changes and rebuilds automatically — refresh the page to see edits.
 
-Note: To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
+Always preview locally before pushing to `main` — GitHub Pages can take a few minutes to rebuild and publish.
 
-You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
+## Adding a new book
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
-
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-### Use as a Ruby Gem
-
-Alternatively, you can install the theme as a Ruby Gem, without creating a new site.
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "just-the-docs"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
+Each book is a single file in [`_books/`](_books/), with no body — just front matter. To add a book, copy an existing file (e.g. [`_books/a-sorcerers-tail.md`](_books/a-sorcerers-tail.md)) and fill in:
 
 ```yaml
-theme: just-the-docs
+---
+title: "Book Title"
+subtitle: "Book Two of the Imperial Archive"
+date: 2027-01-01          # publication date — books are sorted newest-first
+cover: "/assets/images/books/book-title.png"   # leave blank for a placeholder
+blurb: |
+  One or more paragraphs of back-cover copy. Each blank line starts a new
+  paragraph.
+links:
+  amazon: "#"
+  audible: "#"
+  bookshop: "#"
+  barnes_noble: "#"
+---
 ```
 
-And then install all relevant dependencies:
+- Drop the cover image into [`assets/images/books/`](assets/images/books/) and point `cover` at it.
+- Leave any `links` entry as `"#"` or blank to hide that buy button.
+- The most recent book (by `date`) automatically becomes the home page hero; every book in `_books/` appears on the [Books](library.md) page, newest first.
 
-```shell
-$ bundle
+## Updating "The World"
+
+The World section lives in [`docs/`](docs/) and mirrors the left-hand navigation. Each subfolder (`docs/magic/`, `docs/places/`, `docs/records/`) is a section; each `index.md` is that section's landing page.
+
+**To add a page to an existing section** (e.g. a new place under "The Known World"):
+
+1. Copy an existing file in that folder, e.g. [`docs/places/wattle.md`](docs/places/wattle.md).
+2. Update the front matter:
+   ```yaml
+   ---
+   title: New Place Name
+   parent: The Known World
+   grand_parent: The World
+   nav_order: 9
+   layout: default
+   ---
+   ```
+3. Write the page content in Markdown below the front matter.
+
+`nav_order` controls the position in the sidebar (lower numbers first) among siblings under the same `parent`.
+
+**To add a brand-new top-level section** (a sibling of Magic, The Known World, etc.):
+
+1. Create a new folder under `docs/` with an `index.md`.
+2. Give it front matter like:
+   ```yaml
+   ---
+   title: New Section
+   parent: The World
+   nav_order: 4
+   has_children: true
+   layout: default
+   ---
+   ```
+3. Add pages inside that folder with `parent: New Section` and `grand_parent: The World`.
+
+### In-world callout boxes
+
+The theme is configured with custom callout styles for this site's voice. In any Markdown page, write:
+
+```markdown
+{: .note}
+> This passage needs fact-checking before the Duchess sees it.
 ```
 
-## Usage
+Available styles (configured in [`_config.yml`](_config.yml) under `callouts:`): `.note` ("Art's Note"), `.important` ("Official Record"), `.highlight` ("Work in Progress"), `.warning` ("Warning"), `.new` ("Disputed").
 
-[View the documentation][Just the Docs] for usage information.
+## Posting an update
 
-## Contributing
+News items live in [`_posts/`](_posts/) and appear on the [Updates](updates.md) page, newest first.
 
-Bug reports, proposals of new features, and pull requests are welcome on GitHub at https://github.com/just-the-docs/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+1. Create a file named `_posts/YYYY-MM-DD-some-title.md` (the date becomes the post date).
+2. Add front matter and content:
+   ```yaml
+   ---
+   title: "Post Title"
+   excerpt: "A short summary shown in the updates list."
+   ---
 
-### Submitting code changes:
+   The full text of the update, in Markdown.
+   ```
 
-- Submit an [Issue](https://github.com/just-the-docs/just-the-docs/issues) that motivates the changes, using the appropriate template
-- Discuss the proposed changes with other users and the maintainers
-- Open a [Pull Request](https://github.com/just-the-docs/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Provide instructions to check the effect of the changes
-- Await code review
+No `layout` or `permalink` is needed — both are set automatically for everything in `_posts/` via `_config.yml`.
 
-### Design and development principles of this theme:
+## Editing the About page
 
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
+Edit [`about.md`](about.md) directly. The author photo is at [`assets/images/about/photo.jpg`](assets/images/about/photo.jpg) — replace that file to change the picture, or update the `<img src>` to point elsewhere.
 
-## Development
+## Site-wide settings and look
 
-To set up your environment to develop this theme: fork this repo, the run `bundle install` from the root directory.
+Most global settings live in [`_config.yml`](_config.yml):
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+- `title`, `description` — site name and meta description.
+- `footer_content` — the text shown in the footer on every page (HTML allowed).
+- `design:` — colors and fonts, including the `home:` sub-section which controls the home page's pen name, title, subtitle, blurb, and call-to-action colors.
+- `nav_order` on any top-level page (`index.md`, `library.md`, `docs/index.md`, `updates.md`, `about.md`) controls the order of items in the main sidebar.
 
-When this theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be included in the gem.
+## Publishing
 
-## License
+Push changes to `main`. GitHub Pages rebuilds and redeploys the site automatically — this usually takes a minute or two, occasionally longer.
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+## Credits
 
-[^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.com
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
-[GitHub Pages]: https://pages.github.com/
-[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Built on [Just the Docs](https://github.com/just-the-docs/just-the-docs), available under the [MIT License](LICENSE.txt). The `_books` collection, the World docs structure, the home/library layouts, and the color scheme in this repo are customizations on top of that theme for this site specifically.
