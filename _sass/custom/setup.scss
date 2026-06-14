@@ -1,0 +1,10 @@
+// custom setup — Victor Konara / Imperial Archive
+// Fonts are loaded via <link> in head_custom.html, not @import, to avoid FOUT waterfall.
+
+$body-font-family:    'Spectral', Georgia, 'Times New Roman', serif !default;
+$heading-font-family: 'Cinzel', 'Trajan Pro', Georgia, serif !default;
+$mono-font-family:    'Courier Prime', 'SFMono-Regular', menlo, monospace !default;
+
+$root-font-size:  18px !default;
+$body-line-height: 1.7 !default;
+$amber-000: #c8850a !default;

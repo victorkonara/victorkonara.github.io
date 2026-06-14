@@ -1,0 +1,605 @@
+// Victor Konara — Imperial Archive custom styles
+
+// ── Typography ─────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  color: $body-heading-color;
+}
+
+h1 { font-size: 2.4rem !important; }
+h2 { font-size: 1.6rem !important; margin-top: 2.5rem; }
+h3 { font-size: 1.2rem !important; }
+h4 { font-size: 1rem !important; }
+h5 { font-size: 0.9rem !important; }
+h6 { font-size: 0.8rem !important; }
+
+body {
+  font-size: 1.05rem;
+  line-height: $body-line-height;
+  color: $body-text-color;
+  background-color: $body-background-color;
+  font-family: $body-font-family;
+}
+
+// ── Ornamental rules ───────────────────────────────────────────
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+  margin: 2.5rem 0;
+  position: relative;
+
+  &::after {
+    content: '✦';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: $body-background-color;
+    color: $body-heading-color;
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
+  }
+}
+
+// ── Manuscript pages (docs) ─────────────────────────────────────
+// Applied automatically to any page with `manuscript: true` in its
+// front matter / defaults — see the "docs" scope in _config.yml.
+.manuscript {
+  // Breathing room between the title and the opening (dropped-cap) paragraph,
+  // with a faint engraved feel to the title itself
+  > h1:first-of-type {
+    margin-bottom: 1.75rem;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5), 0 2px 4px rgba($body-heading-color, 0.2);
+  }
+
+  // Prose typography: old-style figures, period-appropriate ligatures,
+  // and hanging punctuation for opening quotes (Safari)
+  p {
+    font-variant-numeric: oldstyle-nums;
+    font-variant-ligatures: common-ligatures discretionary-ligatures;
+    hanging-punctuation: first last;
+  }
+
+  // A reader's selection reads as ink on parchment, not browser-blue
+  ::selection {
+    background: rgba($link-color, 0.25);
+    color: $body-heading-color;
+  }
+
+  // Drop cap on the opening paragraph, set in a small illuminated panel
+  > p:first-of-type::first-letter {
+    font-family: $heading-font-family;
+    font-weight: 700;
+    font-size: 3.4em;
+    line-height: 0.82;
+    float: left;
+    margin: 0.04em 0.12em 0 0;
+    padding: 0.06em 0.12em;
+    color: $body-heading-color;
+    background: linear-gradient(135deg, rgba($link-color, 0.12), rgba($link-color, 0.02));
+    border: 1px solid rgba($border-color, 0.6);
+    border-radius: 2px;
+  }
+
+  // Decorative opening quote mark on quoted laws, letters, and proclamations
+  blockquote p:first-of-type::before {
+    content: '\201C';
+    font-family: $heading-font-family;
+    font-size: 1.8em;
+    line-height: 0;
+    vertical-align: -0.35em;
+    margin-right: 0.15em;
+    color: rgba($body-heading-color, 0.5);
+  }
+
+  // Ornamental break before each section heading
+  h2 {
+    position: relative;
+    margin-top: 3.5rem !important;
+    padding-top: 2.5rem;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+    }
+
+    &::before {
+      content: '✦';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: $body-background-color;
+      color: $body-heading-color;
+      font-size: 0.7rem;
+      padding: 0 0.5rem;
+      z-index: 1;
+    }
+  }
+
+  // Closing flourish at the end of the page
+  &::after {
+    content: '✦';
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: $body-heading-color;
+    opacity: 0.5;
+  }
+}
+
+// ── Blockquotes ────────────────────────────────────────────────
+blockquote {
+  border-left: 3px solid rgba($body-heading-color, 0.4);
+  padding: 0.75rem 1.25rem;
+  color: rgba($body-text-color, 0.8);
+  font-style: italic;
+  background: rgba($body-heading-color, 0.05);
+  border-radius: 0 3px 3px 0;
+  margin: 1.5rem 0;
+}
+
+// ── Links ──────────────────────────────────────────────────────
+a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($link-color, 0.3);
+  transition: border-color 0.15s, color 0.15s;
+
+  &:hover {
+    color: lighten($link-hover-color, 15%);
+    border-bottom-color: $link-hover-color;
+  }
+}
+
+// ── Sidebar ────────────────────────────────────────────────────
+.side-bar {
+  background-color: $sidebar-color;
+  border-right: 1px solid $border-color;
+  box-shadow: 4px 0 32px rgba(0, 0, 0, 0.5);
+}
+
+.nav-list .nav-list-link {
+  color: $nav-child-link-color !important;
+  font-family: $heading-font-family;
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+
+  &:hover {
+    color: $sidebar-text-hover-color !important;
+  }
+}
+
+.nav-list .nav-list .nav-list-link {
+  color: $amber-000 !important;
+  font-weight: 400;
+}
+
+.site-title,
+.nav-category {
+  font-family: $heading-font-family;
+  color: $nav-child-link-color !important;
+  opacity: 0.6;
+  letter-spacing: 0.1em;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+}
+
+.site-title {
+  opacity: 1;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $body-heading-color !important;
+}
+
+.side-bar,
+.nav-list,
+.nav-category,
+.aux-nav {
+  font-family: $heading-font-family;
+}
+
+// ── Images ─────────────────────────────────────────────────────
+.main-content img {
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6), 0 1.5px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  border: 1px solid $border-color;
+  max-width: 100%;
+  height: auto;
+}
+
+// ── Tables ─────────────────────────────────────────────────────
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+
+  th {
+    font-family: $heading-font-family;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $body-heading-color;
+    background: rgba($link-color, 0.08);
+    border: 1px solid $border-color;
+    padding: 0.6rem 0.8rem;
+  }
+
+  td {
+    border: 1px solid $border-color;
+    padding: 0.5rem 0.8rem;
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) td {
+    background: rgba($link-color, 0.03);
+  }
+}
+
+// ── Home page ──────────────────────────────────────────────────
+.home-hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.home-penname {
+  font-family: $heading-font-family;
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: $link-color;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.home-cover {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 2rem;
+  border-radius: 2px;
+  border: 1px solid $border-color;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6), 0 1.5px 8px rgba(0, 0, 0, 0.4);
+}
+
+.home-book-title {
+  font-family: $heading-font-family !important;
+  font-size: clamp(2.8rem, 7vw, 5.5rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.05 !important;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem !important;
+  text-shadow: 
+    // Close shadow for definition
+    1px 1px 2px rgba(0, 0, 0, 0.3),
+    // Mid-distance amber glow for warmth
+    0 4px 8px rgba(160, 80, 16, 0.25),
+    // Far shadow for depth
+    0 8px 16px rgba(0, 0, 0, 0.4),
+    // Extra distant shadow for sophistication
+    0 16px 32px rgba(0, 0, 0, 0.25);
+}
+
+.home-book-subtitle {
+  font-family: $heading-font-family;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $link-color;
+  margin-bottom: 2rem;
+  opacity: 0.75;
+}
+
+.home-divider {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+  margin: 1.5rem auto;
+  position: relative;
+
+  &::after {
+    content: '✦';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: $body-background-color;
+    color: $body-heading-color;
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
+  }
+}
+
+.home-blurb {
+  font-family: $body-font-family;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: rgba($body-text-color, 0.85);
+  max-width: 580px;
+  margin: 0 auto 2.5rem;
+  font-style: italic;
+  text-align: left;
+
+  p {
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.book-buy-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home-buy-links {
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.btn-book {
+  font-family: $heading-font-family;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid $link-color;
+  color: $link-color !important;
+  background: rgba($link-color, 0.08);
+  border-radius: 2px;
+  text-decoration: none;
+  border-bottom: 1px solid $link-color !important;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: $link-color;
+    color: #f7f0e0 !important;
+  }
+
+  &.btn-book-primary {
+    background: $link-color;
+    color: #f7f0e0 !important;
+  }
+}
+
+.home-archive-cta {
+  margin-top: 1rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba($border-color, 0.5);
+  text-align: center;
+  width: 100%;
+
+  p {
+    font-family: $heading-font-family;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba($body-text-color, 0.45);
+    margin-bottom: 0.75rem;
+  }
+
+  a {
+    font-family: $heading-font-family;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    color: rgba($body-text-color, 0.65);
+    border-bottom: 1px solid rgba($border-color, 0.5);
+
+    &:hover {
+      color: $link-hover-color;
+      border-bottom-color: $link-hover-color;
+    }
+  }
+}
+
+// ── Callout refinements ────────────────────────────────────────
+// Just the Docs callout defaults get a bit of a period feel
+.callout {
+  border-radius: 1px;
+  font-size: 0.95rem;
+
+  .callout-title {
+    font-family: $heading-font-family;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+}
+
+// ── Breadcrumbs ────────────────────────────────────────────────
+.breadcrumb-nav {
+  font-family: $heading-font-family;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+
+// ── Archive section labels ─────────────────────────────────────
+.archive-label {
+  display: inline-block;
+  font-family: $heading-font-family;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $link-color;
+  border: 1px solid rgba($link-color, 0.4);
+  padding: 0.15em 0.5em;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+// ── Books list page ────────────────────────────────────────────
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.book-entry {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.book-entry-cover {
+  flex: 0 0 180px;
+  width: 180px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: 1px solid $border-color;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6), 0 1.5px 8px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.book-entry-cover-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  padding: 1rem;
+  text-align: center;
+  font-family: $heading-font-family;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba($body-text-color, 0.4);
+  background: rgba($body-heading-color, 0.05);
+  border: 1px dashed rgba($border-color, 0.7);
+  border-radius: 2px;
+}
+
+.book-entry-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.book-entry-title {
+  font-family: $heading-font-family;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  color: $body-heading-color;
+  margin: 0 0 0.25rem;
+}
+
+.book-entry-subtitle {
+  font-family: $heading-font-family;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $link-color;
+  opacity: 0.8;
+  margin: 0 0 0.5rem;
+}
+
+.book-entry-date {
+  font-family: $heading-font-family;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba($body-text-color, 0.45);
+  margin: 0 0 1rem;
+}
+
+.book-entry-blurb {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba($body-text-color, 0.85);
+  margin-bottom: 1.25rem;
+
+  p {
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ── Updates page ───────────────────────────────────────────────
+.updates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.update-entry {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba($border-color, 0.5);
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.update-date {
+  font-family: $heading-font-family;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba($body-text-color, 0.45);
+  margin: 0 0 0.4rem;
+
+  a {
+    color: rgba($body-text-color, 0.45);
+    border-bottom-color: rgba($border-color, 0.7);
+
+    &:hover {
+      color: $link-hover-color;
+      border-bottom-color: $link-hover-color;
+    }
+  }
+}
+
+.update-title {
+  margin: 0 0 0.5rem;
+
+  a {
+    border-bottom: none;
+  }
+}
+
+.update-excerpt {
+  color: rgba($body-text-color, 0.85);
+
+  p {
+    margin: 0;
+  }
+}
+
+// Import shelf styles
+@import "shelf";
