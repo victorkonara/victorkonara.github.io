@@ -1,0 +1,64 @@
+{% if site.logo %}
+$logo: "{{ site.logo | relative_url }}";
+{% endif %}
+
+{% comment %} === Font injection from _config.yml theme section ===
+  Must happen before setup.scss, which immediately @imports the Google Fonts URL.
+  setup.scss uses !default on all font vars, so these take priority. {% endcomment %}
+{% if site.design.google_fonts_url %}
+$import_url: "{{ site.design.google_fonts_url }}";
+{% endif %}
+{% if site.design.heading_font %}
+$heading-font-family: {{ site.design.heading_font }};
+{% endif %}
+{% if site.design.body_font %}
+$body-font-family: {{ site.design.body_font }};
+{% endif %}
+
+@import "./support/support";
+@import "./custom/setup";
+@import "./color_schemes/light";
+{% unless include.color_scheme == "light" %}
+@import "./color_schemes/{{ include.color_scheme }}";
+{% endunless %}
+
+{% comment %} === Color injection from _config.yml theme section ===
+  Must happen after color scheme imports — light.scss sets base colors
+  without !default, so any injection before it would be overridden. {% endcomment %}
+{% if site.design.body_background %}
+$body-background-color: {{ site.design.body_background }};
+{% endif %}
+{% if site.design.body_text %}
+$body-text-color: {{ site.design.body_text }};
+$body-heading-color: {{ site.design.body_text }};
+{% endif %}
+{% if site.design.body_heading %}
+$body-heading-color: {{ site.design.body_heading }};
+{% endif %}
+{% if site.design.body_link %}
+$link-color: {{ site.design.body_link }};
+{% endif %}
+{% if site.design.body_link_hover %}
+$link-hover-color: {{ site.design.body_link_hover }};
+{% else %}
+$link-hover-color: $link-color;
+{% endif %}
+{% if site.design.sidebar_background %}
+$sidebar-color: {{ site.design.sidebar_background }};
+$feedback-color: {{ site.design.sidebar_background }};
+{% endif %}
+{% if site.design.sidebar_text %}
+$nav-child-link-color: {{ site.design.sidebar_text }};
+{% endif %}
+{% if site.design.sidebar_subtext %}
+$amber-000: {{ site.design.sidebar_subtext }};
+{% endif %}
+{% if site.design.sidebar_text_hover %}
+$sidebar-text-hover-color: {{ site.design.sidebar_text_hover }};
+{% else %}
+$sidebar-text-hover-color: $nav-child-link-color;
+{% endif %}
+
+@import "./modules";
+{% include css/callouts.scss.liquid color_scheme = include.color_scheme %}
+{% include css/custom.scss.liquid %}

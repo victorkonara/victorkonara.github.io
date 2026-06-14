@@ -1,0 +1,15 @@
+{%- assign links = include.links -%}
+<div class="book-buy-links{% if include.class %} {{ include.class }}{% endif %}">
+  {% if links.amazon %}
+  <a href="{{ links.amazon }}" class="btn-book btn-book-primary">Amazon</a>
+  {% endif %}
+  {% if links.audible %}
+  <a href="{{ links.audible }}" class="btn-book">Audible</a>
+  {% endif %}
+  {% if links.bookshop %}
+  <a href="{{ links.bookshop }}" class="btn-book">Bookshop.org</a>
+  {% endif %}
+  {% if links.barnes_noble %}
+  <a href="{{ links.barnes_noble }}" class="btn-book">Barnes &amp; Noble</a>
+  {% endif %}
+</div>

@@ -1,0 +1,16 @@
+{%- assign tag = include.tag -%}
+{%- assign limit = include.limit | default: 3 -%}
+{%- assign posts = site.posts | where_exp: "p", "p.tags contains tag" | sort: 'date' | reverse -%}
+
+{%- if posts and posts.size > 0 -%}
+<ul class="latest-posts">
+  {%- for post in posts limit:limit -%}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</div>
+    </li>
+  {%- endfor -%}
+</ul>
+{%- else -%}
+<p>No recent posts.</p>
+{%- endif -%}

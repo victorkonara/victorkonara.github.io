@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% assign parts = content | split: '<!--footnote-->' %}
+{{ parts[0] }}
+
+<div class="shelf-wrapper">
+  {% include shelf/grid.html %}
+</div>
+
+{% if parts[1] %}
+<div class="shelf-footnote">
+  {{ parts[1] }}
+</div>
+{% endif %}

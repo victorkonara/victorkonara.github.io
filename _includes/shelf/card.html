@@ -1,0 +1,21 @@
+{%- assign item = include.item -%}
+
+<div class="shelf-card">
+  <div class="shelf-card-image">
+    {%- if item.image -%}
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy">
+    {%- else -%}
+      <div class="shelf-card-image-placeholder">No Image</div>
+    {%- endif -%}
+  </div>
+  <div class="shelf-card-content">
+    <h3 class="shelf-card-title">{{ item.title }}</h3>
+    {%- if item.author -%}
+      <p class="shelf-card-author">by {{ item.author }}</p>
+    {%- endif -%}
+    {%- if item.excerpt -%}
+      <p class="shelf-card-excerpt">{{ item.excerpt | strip_html | truncate: 100 }}</p>
+    {%- endif -%}
+  </div>
+  <a href="{{ item.url | relative_url }}" class="shelf-card-link" aria-label="Read more about {{ item.title }}">Read More</a>
+</div>

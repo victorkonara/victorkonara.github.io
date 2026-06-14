@@ -1,0 +1,24 @@
+{%- assign sort_by = page.shelf_sort | default: 'date' -%}
+{%- assign group_by = page.shelf_group_by -%}
+{%- assign items = site.pages | where_exp: "item", "item.path contains 'docs/'" | where_exp: "item", "item.layout != 'shelf'" | where_exp: "item", "item.tags contains page.shelf_tag" | sort: sort_by -%}
+{%- unless page.shelf_sort_reverse == false -%}{%- assign items = items | reverse -%}{%- endunless -%}
+
+<div class="shelf-grid">
+  {%- if items and items.size > 0 -%}
+    {%- if group_by -%}
+      {%- assign groups = items | group_by: group_by -%}
+      {%- for group in groups -%}
+        <div class="shelf-group-heading">{{ group.name | default: 'Other' }}</div>
+        {%- for item in group.items -%}
+          {% include shelf/card.html item=item %}
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- else -%}
+      {%- for item in items -%}
+        {% include shelf/card.html item=item %}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- else -%}
+    <p>No items found in this shelf.</p>
+  {%- endif -%}
+</div>

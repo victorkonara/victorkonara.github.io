@@ -1,0 +1,17 @@
+{%- assign image_url = include.image -%}
+{%- assign alignment = include.align | default: "center" -%}
+{%- assign caption = include.caption -%}
+{%- assign width = include.width | default: "100%" -%}
+
+{%- if image_url -%}
+{%- if alignment == "center" -%}
+<figure class="photo photo-{{ alignment }}" style="max-width: {{ width }};">
+{%- else -%}
+<figure class="photo photo-{{ alignment }}">
+{%- endif -%}
+  <img src="{{ image_url | relative_url }}" alt="{{ caption }}" />
+  {%- if caption -%}
+    <figcaption>{{ caption }}</figcaption>
+  {%- endif -%}
+</figure>
+{%- endif -%}
