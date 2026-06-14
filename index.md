@@ -29,8 +29,8 @@ permalink: /
 {% include components/book-buy-links.html links=book.links class="home-buy-links" %}
 
 <div class="home-archive-cta">
-  <p style="color: {{ home_colors.cta_text_color }};">Worldbuilding notes from Art's personal collection</p>
-  <a href="/docs/" style="color: {{ home_colors.cta_link_color }};">Enter the Archive →</a>
+  <p style="color: {{ home_colors.cta_text_color }};">Being a treatise written for the Duchess of Daub</p>
+  <a href="/docs/" style="color: {{ home_colors.cta_link_color }};">Read about the World →</a>
 </div>
 
 </div>
