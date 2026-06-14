@@ -1,0 +1,168 @@
+# Site settings
+title: Victor Konara
+description: "Fiction and worldbuilding from Victor Konara. Home of A Sorcerer's Tail and the Imperial Archive."
+baseurl: ""
+url: "https://victorkonara.com"
+repository: victorkonara/victorkonara.github.io
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      has_toc: false
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+      manuscript: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /updates/:title/
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  - fixtures/
+  - spec/
+  - tmp
+  - .rspec
+  - World/
+  - books/
+
+show_bookshelf: false
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+  focus_shortcut_key: "k"
+
+enable_copy_code_button: true
+
+heading_anchors: true
+
+aux_links_new_tab: false
+
+nav_enabled: true
+nav_sort: case_sensitive
+nav_error_report: false
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: 'These volumes are maintained by Victor Konara, currently resident in Kandy, Sri Lanka. The Imperial Registry is asked, respectfully, to update his file to <em>at large</em> rather than <em>missing</em>. For publishing enquiries, contact hello [at] victorkonara [dot] com or contact finegan [at] zenoagency [dot] com to talk to my agent.'
+
+last_edit_timestamp: false
+gh_edit_link: false
+
+color_scheme: classic
+
+# ---------------------------------------------------------------
+# Theme: colors and fonts
+# ---------------------------------------------------------------
+design:
+  # Page background & text
+  body_background:     "#f7f0e0"
+  body_text:           "#2a1a08"
+  body_heading:        "#7a2e0a"
+  
+  # Body links
+  body_link:           "#a05010"
+  body_link_hover:     "#a05010"
+  
+  # Sidebar & navigation
+  sidebar_background:  "#3C524A"
+  sidebar_text:        "#faf8f3"
+  sidebar_text_hover:  "#e8d5b0"
+  sidebar_subtext:     "#e8d5b0"
+  
+  # Decorative elements
+  border:              "#c8a870"
+
+  heading_font: "'Cinzel', Georgia, serif"
+  body_font:    "'Spectral', Georgia, 'Times New Roman', serif"
+
+  home:
+    penname_color:   "#7a2e0a"
+    title_color:     "#2a1a08"
+    subtitle_color:  "#7a2e0a"
+    blurb_color:     "#2a1a08"
+    divider_color:   "#c8a870"
+    cta_text_color:  "#7a2e0a"
+    cta_link_color:  "#a05010"
+
+callouts_level: quiet
+callouts:
+  note:
+    title: "Art's Note"
+    color: purple
+  important:
+    title: "Official Record"
+    color: blue
+  highlight:
+    title: "Work in Progress"
+    color: yellow
+  warning:
+    title: "Warning"
+    color: red
+  new:
+    title: "Disputed"
+    color: green
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+sass:
+  quiet_deps: true
+  silence_deprecations: ['import']
