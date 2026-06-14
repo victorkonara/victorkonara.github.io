@@ -12,7 +12,8 @@ permalink: /
 
 <p class="home-penname" style="color: {{ home_colors.penname_color }};">Victor Konara</p>
 
-{% assign book = site.data.books.first %}
+{% assign books = site.books | sort: "date" | reverse %}
+{% assign book = books.first %}
 
 {% if book.cover and book.cover != "" %}
 <img class="home-cover" src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}">

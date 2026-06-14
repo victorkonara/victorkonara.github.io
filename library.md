@@ -9,7 +9,8 @@ description: "Books by Victor Konara, including A Sorcerer's Tail and the Imperi
 # Books
 
 <div class="book-list">
-{% for book in site.data.books %}
+{% assign books = site.books | sort: "date" | reverse %}
+{% for book in books %}
   <div class="book-entry">
     <div class="book-entry-cover">
       {% if book.cover and book.cover != "" %}

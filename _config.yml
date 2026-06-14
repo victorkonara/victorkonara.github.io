@@ -7,6 +7,11 @@ repository: victorkonara/victorkonara.github.io
 
 permalink: pretty
 
+# Books, one file per book in _books/, not rendered as standalone pages.
+collections:
+  books:
+    output: false
+
 defaults:
   - scope:
       path: ""
@@ -53,7 +58,6 @@ exclude:
   - tmp
   - .rspec
   - World/
-  - books/
 
 show_bookshelf: false
 
