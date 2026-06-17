@@ -1,6 +1,6 @@
 ---
 title: Tangowan
-parent: The Known World
+parent: Of Provinces
 grand_parent: The World
 nav_order: 5
 layout: default

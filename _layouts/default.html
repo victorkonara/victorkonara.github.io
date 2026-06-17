@@ -31,6 +31,10 @@ layout: table_wrappers
           {% if page.has_toc != false %}
             {% include components/children_nav.html %}
           {% endif %}
+
+          {% if page.manuscript %}
+            {% include components/colophon.html %}
+          {% endif %}
         </main>
         {% include components/footer.html %}
       </div>

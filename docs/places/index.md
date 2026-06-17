@@ -1,12 +1,12 @@
 ---
-title: The Known World
+title: Of Provinces
 parent: The World
 layout: default
 nav_order: 2
 has_children: true
 ---
 
-# Of the Various Lands That Concern Us 
+# Of the Various Provinces That Concern Us 
 
 The chapters that follow concern every place with a bearing on Your Grace's position. These may bear directly, as neighbors and trading partners, or indirectly, as powers whose arrangements determine Daub's fortunes from a distance.
 

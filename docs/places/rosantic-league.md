@@ -1,6 +1,6 @@
 ---
 title: The Rosantic League
-parent: The Known World
+parent: Of Provinces
 grand_parent: The World
 nav_order: 6
 layout: default

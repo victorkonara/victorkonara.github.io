@@ -50,14 +50,14 @@ links:
 
 The World section lives in [`docs/`](docs/) and mirrors the left-hand navigation. Each subfolder (`docs/magic/`, `docs/places/`, `docs/records/`) is a section; each `index.md` is that section's landing page.
 
-**To add a page to an existing section** (e.g. a new place under "The Known World"):
+**To add a page to an existing section** (e.g. a new place under "Of Provinces"):
 
 1. Copy an existing file in that folder, e.g. [`docs/places/wattle.md`](docs/places/wattle.md).
 2. Update the front matter:
    ```yaml
    ---
    title: New Place Name
-   parent: The Known World
+   parent: Of Provinces
    grand_parent: The World
    nav_order: 9
    layout: default
@@ -67,7 +67,7 @@ The World section lives in [`docs/`](docs/) and mirrors the left-hand navigation
 
 `nav_order` controls the position in the sidebar (lower numbers first) among siblings under the same `parent`.
 
-**To add a brand-new top-level section** (a sibling of Magic, The Known World, etc.):
+**To add a brand-new top-level section** (a sibling of Of Magic, Of Provinces, etc.):
 
 1. Create a new folder under `docs/` with an `index.md`.
 2. Give it front matter like:

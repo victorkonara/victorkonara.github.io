@@ -169,4 +169,4 @@ compress_html:
 
 sass:
   quiet_deps: true
-  silence_deprecations: ['import']
+  silence_deprecations: ['import', 'color-functions', 'global-builtin']

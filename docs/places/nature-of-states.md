@@ -1,6 +1,6 @@
 ---
 title: On the Nature of States
-parent: The Known World
+parent: Of Provinces
 grand_parent: The World
 nav_order: 9
 layout: default

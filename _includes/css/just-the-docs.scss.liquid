@@ -45,8 +45,13 @@ $link-hover-color: $link-color;
 {% endif %}
 {% if site.design.sidebar_background %}
 $sidebar-color: {{ site.design.sidebar_background }};
-$feedback-color: {{ site.design.sidebar_background }};
 {% endif %}
+{% comment %}
+  $feedback-color is the hover/active highlight painted behind nav links.
+  It must read as distinct from $sidebar-color itself, or the highlight is
+  invisible — so it's derived rather than set to the same config value.
+{% endcomment %}
+$feedback-color: lighten($sidebar-color, 12%);
 {% if site.design.sidebar_text %}
 $nav-child-link-color: {{ site.design.sidebar_text }};
 {% endif %}

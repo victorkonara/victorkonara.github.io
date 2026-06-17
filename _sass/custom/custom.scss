@@ -20,8 +20,15 @@ body {
   font-size: 1.05rem;
   line-height: $body-line-height;
   color: $body-text-color;
-  background-color: $body-background-color;
   font-family: $body-font-family;
+  background-color: $body-background-color;
+  // A faint vignette plus a fine paper grain, so the parchment colour
+  // reads as a material rather than a flat fill
+  background-image:
+    radial-gradient(ellipse 140% 100% at 50% 0%, rgba(0, 0, 0, 0) 60%, rgba(42, 26, 8, 0.07) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed, fixed;
 }
 
 // ── Ornamental rules ───────────────────────────────────────────
@@ -62,6 +69,16 @@ hr {
     font-variant-numeric: oldstyle-nums;
     font-variant-ligatures: common-ligatures discretionary-ligatures;
     hanging-punctuation: first last;
+    hyphens: auto;
+    text-wrap: pretty;
+  }
+
+  // A comfortable reading measure (~70 characters), left-set within the
+  // wider content column so the freed space on the right stays available
+  // for a future margin-note treatment. Dividers, titles, and media keep
+  // the full column width, which is what gives the page-block contrast.
+  > p, > ul, > ol, > dl, > blockquote, h2, h3, h4, h5, h6 {
+    max-width: 70ch;
   }
 
   // A reader's selection reads as ink on parchment, not browser-blue
@@ -83,6 +100,13 @@ hr {
     background: linear-gradient(135deg, rgba($link-color, 0.12), rgba($link-color, 0.02));
     border: 1px solid rgba($border-color, 0.6);
     border-radius: 2px;
+  }
+
+  // The rest of that opening line reads as small caps, in the manner of
+  // an illuminated manuscript's first line of text
+  > p:first-of-type::first-line {
+    font-variant-caps: small-caps;
+    letter-spacing: 0.03em;
   }
 
   // Decorative opening quote mark on quoted laws, letters, and proclamations
@@ -126,16 +150,51 @@ hr {
     }
   }
 
-  // Closing flourish at the end of the page
+}
+
+// ── Colophon ───────────────────────────────────────────────────
+// Closes each manuscript page the way a bound volume's colophon does:
+// a folio number, the section it belongs to, who transcribed it.
+.colophon {
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+.colophon-divider {
+  width: 160px;
+  height: 1px;
+  margin: 0 auto 1.25rem;
+  position: relative;
+  background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+
   &::after {
     content: '✦';
-    display: block;
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 0.8rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: $body-background-color;
     color: $body-heading-color;
-    opacity: 0.5;
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
   }
+}
+
+.colophon-line {
+  font-family: $heading-font-family;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba($body-text-color, 0.45);
+  margin: 0 0 0.4rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.colophon-credit {
+  opacity: 0.85;
 }
 
 // ── Blockquotes ────────────────────────────────────────────────
@@ -150,15 +209,30 @@ blockquote {
 }
 
 // ── Links ──────────────────────────────────────────────────────
+// The base theme underlines classless links natively (text-decoration);
+// that fights with the background-image underline below, doubling the
+// line under most prose links. The background-image version wins.
+a:not([class]) {
+  text-decoration: none;
+}
+
+// An underline that grows and deepens on hover, like ink bleeding
+// into parchment, rather than a flat colour swap
 a {
   color: $link-color;
   text-decoration: none;
-  border-bottom: 1px solid rgba($link-color, 0.3);
-  transition: border-color 0.15s, color 0.15s;
+  background-image: linear-gradient(to right, rgba($link-color, 0.35), rgba($link-color, 0.35));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  padding-bottom: 0.05em;
+  transition: color 0.2s ease, background-size 0.3s ease, text-shadow 0.3s ease;
 
   &:hover {
     color: lighten($link-hover-color, 15%);
-    border-bottom-color: $link-hover-color;
+    background-image: linear-gradient(to right, rgba($link-hover-color, 0.9), rgba($link-hover-color, 0.9));
+    background-size: 100% 2px;
+    text-shadow: 0 0 10px rgba($link-hover-color, 0.35);
   }
 }
 
@@ -403,26 +477,43 @@ table {
     font-size: 0.85rem;
     letter-spacing: 0.12em;
     color: rgba($body-text-color, 0.65);
-    border-bottom: 1px solid rgba($border-color, 0.5);
+    background-image: linear-gradient(to right, rgba($border-color, 0.7), rgba($border-color, 0.7));
 
     &:hover {
       color: $link-hover-color;
-      border-bottom-color: $link-hover-color;
+      background-image: linear-gradient(to right, rgba($link-hover-color, 0.9), rgba($link-hover-color, 0.9));
     }
   }
 }
 
 // ── Callout refinements ────────────────────────────────────────
-// Just the Docs callout defaults get a bit of a period feel
-.callout {
-  border-radius: 1px;
-  font-size: 0.95rem;
+// just-the-docs renders one class per entry in site.callouts (see the
+// `callouts:` map in _config.yml) — note, important, highlight, warning,
+// new — rather than a shared "callout" wrapper, so each is targeted here.
+$callout-types: note, important, highlight, warning, new;
 
-  .callout-title {
-    font-family: $heading-font-family;
-    font-size: 0.72rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+@each $type in $callout-types {
+  .#{$type} {
+    border-radius: 1px;
+    font-size: 0.95rem;
+
+    &::before,
+    > .#{$type}-title {
+      font-family: $heading-font-family;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+    }
+  }
+
+  .#{$type}-title {
+    border-radius: 1px;
+    font-size: 0.95rem;
+
+    > p:first-child {
+      font-family: $heading-font-family;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+    }
   }
 }
 
@@ -576,11 +667,11 @@ table {
 
   a {
     color: rgba($body-text-color, 0.45);
-    border-bottom-color: rgba($border-color, 0.7);
+    background-image: linear-gradient(to right, rgba($border-color, 0.7), rgba($border-color, 0.7));
 
     &:hover {
       color: $link-hover-color;
-      border-bottom-color: $link-hover-color;
+      background-image: linear-gradient(to right, rgba($link-hover-color, 0.9), rgba($link-hover-color, 0.9));
     }
   }
 }
@@ -589,7 +680,12 @@ table {
   margin: 0 0 0.5rem;
 
   a {
-    border-bottom: none;
+    background-image: none;
+
+    &:hover {
+      background-image: none;
+      text-shadow: none;
+    }
   }
 }
 

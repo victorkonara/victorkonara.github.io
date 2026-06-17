@@ -1,6 +1,6 @@
 ---
 title: Of Emotion and Detection
-parent: Magic
+parent: Of Magic
 grand_parent: The World
 nav_order: 6
 layout: default
@@ -8,7 +8,7 @@ layout: default
 
 # Of Emotion, Belief, and the Detection of Hidden Workings
 
-The workings that follow are, of all those I have assembled, the most likely to be used against Your Grace without her knowledge. Emotional magic is difficult to distinguish from ordinary feeling; narrative workings are designed to resemble coincidence. They are not all the exclusive province of villains, but a wise ruler is aware and always warded against these magics.
+The workings that follow are, of all those I have assembled, are the least visible save in their effects. Emotional magic is difficult to distinguish from ordinary feeling; narrative workings are designed to resemble coincidence. They are not all the exclusive province of villains, but a wise ruler is aware and always warded against these magics.
 
 ## Of the Emotional
 
@@ -34,7 +34,7 @@ These workings I include in this corpus so as to illustrate to Your Grace the na
 
 ### Odiris' Lotus of World-Shaping Belief
 
-An expensive ritual that binds participants to specific roles within a defined narrative structure, imposing story patterns on local reality. The story must already be in motion — the unlikely hero must already be in unlikely circumstances, the betrayal must already be possible, and so on; with this substrate, the Ritual has nothing to attach itself to, and the full cost is paid for nothing. The Ritual ends when either the story ends or the caster dies; it has a habit of being ruinously expensive if any of the participants thus bound learns of the nature of the story they are trapped in, and thus resists. A full Lotus has only been cast thrice in recorded history without killing the caster.
+An expensive ritual that binds participants to specific roles within a defined narrative structure, imposing story patterns on local reality. The story must already be in motion - the unlikely hero must already be in unlikely circumstances, the betrayal must already be possible, and so on; with this substrate, the Ritual has nothing to attach itself to, and the full cost is paid for nothing. The Ritual ends when either the story ends or the caster dies; it has a habit of being ruinously expensive if any of the participants thus bound learns of the nature of the story they are trapped in, and thus resists. A full Lotus has only been cast thrice in recorded history without killing the caster.
 
 ### Ahubudhu's Invisible Hand
 

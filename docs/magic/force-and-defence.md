@@ -1,6 +1,6 @@
 ---
 title: Of Force and Defence
-parent: Magic
+parent: Of Magic
 grand_parent: The World
 nav_order: 4
 layout: default

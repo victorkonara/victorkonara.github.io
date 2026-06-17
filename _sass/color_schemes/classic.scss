@@ -7,11 +7,10 @@ $body-background-color: #f7f0e0;    // warm parchment
 $body-text-color:       #2a1a08;    // dark warm ink
 $body-heading-color:    #7a2e0a;    // deep burnt sienna
 $link-color:            #a05010;    // dark amber — readable on parchment
-$amber-000:             #a05010;    // accent
 $nav-child-link-color:  #f0e4cc;    // bright cream — high contrast on green
 $sidebar-color:         #2a3d22;    // faded forest green leather
 $feedback-color:        #1c2e16;    // darker green for hover states
-$amber-000:             #d4a84a;    // warm gold for child nav links (readable on green)
+$amber-000:             #d4a84a !default; // warm gold for child nav links (readable on green); _config.yml's design.sidebar_subtext overrides this in practice
 $border-color:          #c8a870;    // warm tan rule
 
 @import "./vendor/accessible-pygments/github-light";

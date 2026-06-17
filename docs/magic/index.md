@@ -1,5 +1,5 @@
 ---
-title: Magic
+title: Of Magic
 parent: The World
 layout: default
 nav_order: 1

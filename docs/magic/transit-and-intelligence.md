@@ -1,6 +1,6 @@
 ---
 title: Of Transit and Intelligence
-parent: Magic
+parent: Of Magic
 grand_parent: The World
 nav_order: 3
 layout: default

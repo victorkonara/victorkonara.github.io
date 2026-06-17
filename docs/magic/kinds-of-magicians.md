@@ -1,6 +1,6 @@
 ---
 title: Those Who Work Magic
-parent: Magic
+parent: Of Magic
 grand_parent: The World
 nav_order: 2
 layout: default
@@ -14,7 +14,7 @@ At the intuitive end stand the Sahaja. These are Binders, Vedics, druids, and th
 
 At the systematic end stand the Rachana. This is the approach of Taprobane, and of Daub's own Lesser Theoretical University. Here, magic is akin to engineering and architecture. Patterns are the smallest unit, Rituals are composed of Patterns, and the entire edifice can be handed to a second practitioner who need not understand its construction to execute it. This is Singhapura's greatest strength: the study of such magics will show Your Grace how the empire builds its formidable roads and towers and armies and keeps its people fed. The costs are the costs of all systems: the more complex they are, the more there is expense, specialization of knowledge, gatekeeping and the competition of peers, and brittleness in the failure mode as circumstances depart from design.
 
-Your Grace governs a city in which both traditions are present, and the relationship between the Lesser Theoretical University and those magicians who work by older, less systematized means — especially the Haugris Church and the Temple of Eighteen — bears watching. Institutions with unique capacities inevitably develop political confidence to match; this is as true of the LTU as it is of the Merchants Guild, and the principle by which Your Grace manages the one should inform how she manages the other.
+Your Grace governs a city in which both traditions are present, and the relationship between the Lesser Theoretical University and those magicians who work by older, less systematized means - especially the Haugris Church and the Temple of Eighteen - bears watching. Institutions with unique capacities inevitably develop political confidence to match; this is as true of the LTU as it is of the Merchants Guild, and the principle by which Your Grace manages the one should inform how she manages the other.
 
 ## Of the Seven Dependent Originations of Being
 
@@ -40,7 +40,7 @@ Your Grace should be advised that Binders can be easily countered by the magics 
 
 Those who draw their power from an external source we call Invokers. This is the path of faith, in its broadest sense: the practitioner shapes himself to the requirements of a higher power and becomes, for a while, a vessel for something greater than his own Authority. What the Invoker gains in power he surrenders in autonomy; he is constrained, always, by the nature and requirements of what he channels.
 
-The major Invoker traditions Your Grace will encounter in Daub and in the Empire are the following. The Temple of Eighteen focuses on what they call Inheriting the Virtues of their Litanies — the practitioner becomes, temporarily, an avatar of a specific divine principle.
+The major Invoker traditions Your Grace will encounter in Daub and in the Empire are the following. The Temple of Eighteen focuses on what they call Inheriting the Virtues of their Litanies - the practitioner becomes, temporarily, an avatar of a specific divine principle.
 
 The Haugris Church claims to draw from the Divine Corpus of Raavan; their approach is semi-systematic, codified in the Paramanu Thesis, which gives them more predictability than most Invoker traditions, but is still within the tradition.
 
@@ -54,7 +54,7 @@ There is a further observation worth making. It is rare for an Invoker to be a p
 
 ### IV. Ritualists
 
-We come now to the Taprobane System, and to the Lesser Theoretical University, which we name as working in the Ritualist tradition. Ritualists work through language and logical structure. The Pattern is the simplest unit — a validated fragment of magical grammar; the Ritual is a composition of Patterns complex enough to sustain itself. Many Patterns are standardized; many Rituals are standardized; the result is the ability to break down problems into smaller ones, architect solutions, assemble them, and even share them at scales that no intuitive tradition can match. I claim no falsehood when I say that Ritualism is to magic what the written word is to literature. One may hand a trained practitioner a Ritual and he can execute it without understanding how it was built, in the way that a soldier may pick up and use a sword without having to forge it from scratch.
+We come now to the Taprobane System, and to the Lesser Theoretical University, which we name as working in the Ritualist tradition. Ritualists work through language and logical structure. The Pattern is the simplest unit - a validated fragment of magical grammar; the Ritual is a composition of Patterns complex enough to sustain itself. Many Patterns are standardized; many Rituals are standardized; the result is the ability to break down problems into smaller ones, architect solutions, assemble them, and even share them at scales that no intuitive tradition can match. I claim no falsehood when I say that Ritualism is to magic what the written word is to literature. One may hand a trained practitioner a Ritual and he can execute it without understanding how it was built, in the way that a soldier may pick up and use a sword without having to forge it from scratch.
 
 There are minor differences between the workings of Taprobane and the LTU. In Ritualist magic there must be a device for converting language to effect; Taprobane employs a device known as the Universal Ritual Interpreter, and what the LTU uses, which is Rossum's Universal Translator, is designed deliberately to omit support for certain complex Patterns, so as to be cheaper to manufacture. Nevertheless, while the LTU operates in territory that Taprobane has mapped, both universities have together made significant strides in the theory and application of magic; thus the relationship between the two institutions is one of near-equivalence and considerable mutual irritation. Your Grace benefits from this tension in the same way she benefits from that between the Church and the Temple: two rivals who exhaust their ambitions on each other leave less ambition for the direction she rules from.
 
@@ -70,9 +70,9 @@ The counsel I can offer is limited. What I would suggest is this: a Dreamwalker 
 
 An earlier version of this classification grouped the daemonic with the divine; the boundary between gods and daemons was, in popular understanding, one of moral character rather than structural difference. As our understanding has developed, it has become clear that the daemon world has its own formal architecture of magic; it boasts its own universities and traditions, and much of it appears to be an attempt to reverse-engineer what they call the Word of God. For what purpose, we do not yet understand.
 
-I raise this not because Your Grace is likely to negotiate directly with daemonic institutions — though stranger things have occurred — but because the influence of daemonic scholarship is more considerable than is generally acknowledged. Much of what Taprobane systematized was influenced, at a remove of several generations of theorists, by daemonic universities and their own quest for a symbolic architecture of magic.
+I raise this not because Your Grace is likely to negotiate directly with daemonic institutions - though stranger things have occurred - but because the influence of daemonic scholarship is more considerable than is generally acknowledged. Much of what Taprobane systematized was influenced, at a remove of several generations of theorists, by daemonic universities and their own quest for a symbolic architecture of magic.
 
-Furthermore, Tears — which are those gaps in reality through which magic leaks and artefacts arrive — are in many cases the product of daemonic crossings. The Waste has a permanent Tear inside it, which is why the artefact trade exists; thus a significant portion of Daub's commercial and military advantage rests on a foundation built by accident by beings we cannot understand.
+Furthermore, Tears - which are those gaps in reality through which magic leaks and artefacts arrive - are in many cases the product of daemonic crossings. The Waste has a permanent Tear inside it, which is why the artefact trade exists; thus a significant portion of Daub's commercial and military advantage rests on a foundation built by accident by beings we cannot understand.
 
 ### VII. The Diefic
 

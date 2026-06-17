@@ -1,6 +1,6 @@
 ---
 title: On the Nature of Magic
-parent: Magic
+parent: Of Magic
 grand_parent: The World
 nav_order: 1
 layout: default

@@ -1,0 +1,18 @@
+{%- assign manuscript_pages = site.pages | where: "manuscript", true | sort: "url" -%}
+{%- assign folio_index = 0 -%}
+{%- for p in manuscript_pages -%}
+  {%- if p.url == page.url -%}
+    {%- assign folio_index = forloop.index -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign roman_ones = "0,I,II,III,IV,V,VI,VII,VIII,IX" | split: "," -%}
+{%- assign roman_tens = "0,X,XX,XXX,XL,L,LX,LXX,LXXX,XC" | split: "," -%}
+{%- assign tens_digit = folio_index | divided_by: 10 -%}
+{%- assign ones_digit = folio_index | modulo: 10 -%}
+{%- assign folio_roman = roman_tens[tens_digit] | append: roman_ones[ones_digit] | remove: "0" -%}
+<div class="colophon">
+  <div class="colophon-divider" aria-hidden="true"></div>
+  <p class="colophon-line">Folio {{ folio_roman }}{% if page.parent %} &middot; {{ page.parent }}{% endif %}</p>
+  <p class="colophon-line colophon-credit">Transcribed by Victor Konara</p>
+</div>

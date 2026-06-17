@@ -1,6 +1,6 @@
 ---
 title: Wattle
-parent: The Known World
+parent: Of Provinces
 grand_parent: The World
 nav_order: 2
 layout: default

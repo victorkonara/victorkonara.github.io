@@ -1,6 +1,6 @@
 ---
 title: Of Oaths and Obligations
-parent: Magic
+parent: Of Magic
 grand_parent: The World
 nav_order: 5
 layout: default
@@ -14,7 +14,7 @@ The binding of persons to their word, the enchantment of objects, the anchoring 
 
 ### Sapumal's Five Elements Binding Oath
 
-One of the most widely used Rituals. Enforces contracts using the collective energy of all participants, requires five distinct elemental correspondences to function. The initial cost is distributed and therefore light; anyone who defaults, however, receives from the universe a blow proportional to the age and integrity of the oath they have broken — as though the universe holds the debt in surety against default, releasing it all at once when the oath is violated. This may be one of the most useful tools in Your Grace's arsenal. Sapumal worked briefly as a banker in Lusia before devising this, and the mechanism perhaps reflects his experience.
+One of the most widely used Rituals. Enforces contracts using the collective energy of all participants, requires five distinct elemental correspondences to function. The initial cost is distributed and therefore light; anyone who defaults, however, receives from the universe a blow proportional to the age and integrity of the oath they have broken - as though the universe holds the debt in surety against default, releasing it all at once when the oath is violated. This may be one of the most useful tools in Your Grace's arsenal. Sapumal worked briefly as a banker in Lusia before devising this, and the mechanism perhaps reflects his experience.
 
 ### Sapumal's Sundering
 
