@@ -18,7 +18,7 @@ Projects concentrated magical force as a directed impact. This can be likened to
 
 ### Rehobaum's Forge
 
-Focuses and directs heat, used to forge-weld metals and bring other materials to ignition or explosion point. The Iron Sutra presents a specific constraint here — magic cannot directly touch alloys — and the Forge navigates this by roundabout reference; only the magic generates and directs the heat. Because of this property it can also be used offensively, but its nature is such that it takes time for the Forge to heat up.
+Focuses and directs heat, used to forge-weld metals and bring other materials to ignition or explosion point. The Iron Sutra presents a specific constraint here - magic cannot directly touch alloys - and the Forge navigates this by roundabout reference; only the magic generates and directs the heat. Because of this property it can also be used offensively, but its nature is such that it takes time for the Forge to heat up.
 
 ### Fourier's Withdrawal of the Sun, also known as Fourier's Frost
 
@@ -53,7 +53,7 @@ A rewritten version of Yamuna's Defiance; within a defined boundary, it suspends
 
 ### Sangamitta's Sleep, or Sangamitta's Prison
 
-Uses a pioneering branch of mathematics - again, developed by the Paragon Sangamitta for the Iron Pagoda - to convince a given target that it simultaneously occupies two states, both present and absent; thus the target is held in what the Pagoda called *superposition* until the Ritual is released. It is a fragile Ritual, easily broken by so much as a mosquito touching the target. Curiously, it is famous for not working on cats. Sangamitta postulated that cats possess access to a third state, causing the Ritual to fail unpredictably; her original notes describe this state only as *bloody furious*. This discovery led to the universal ban on cats for magical experiments.
+Uses a pioneering branch of mathematics - again, developed by the Paragon Sangamitta - to convince a given target that it simultaneously occupies two states, both present and absent; thus the target is held in what the Pagoda called *superposition* until the Ritual is released. It is a fragile Ritual, easily broken by so much as a mosquito touching the target. Curiously, it is famous for not working on cats. Sangamitta postulated that cats possess access to a third state, causing the Ritual to fail unpredictably; her original notes describe this state only as *bloody furious*. This discovery led to the universal ban on cats for magical experiments.
 
 ### Poojakandha's First
 
@@ -69,7 +69,7 @@ Does not seal the door at all. Instead, it decouples the threshold's actual loca
 
 ### Poojakandha's Fourth
 
-Seals the threshold conditionally — the door remains sealed until a specified condition is met, at which point it opens freely. Well-specified conditional seals can run unattended for centuries. Poorly specified ones open for reasons the original caster would not recognise. This is a problem that compounds over generations, as the world changes, language evolves, and the Heart Sutra's understanding of what words mean shifts over time. Many doors in the Waste, to cite a familiar example, can be solved by riddling; the scholarly consensus is that these are the effect of such ancient seals malfunctioning.
+Seals the threshold conditionally - the door remains sealed until a specified condition is met, at which point it opens freely. Well-specified conditional seals can run unattended for centuries. Poorly specified ones open for reasons the original caster would not recognise. This is a problem that compounds over generations, as the world changes, language evolves, and the Heart Sutra's understanding of what words mean shifts over time. Many doors in the Waste, to cite a familiar example, can be solved by riddling; the scholarly consensus is that these are the effect of such ancient seals malfunctioning.
 
 ### Poojakandha's Fifth
 
