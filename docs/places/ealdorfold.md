@@ -20,7 +20,7 @@ Ealdorfold does not project strong land armies. There are stories of great and a
 
 However, the Ealdorfold navy is among the finest operating in northern waters. Indeed it is the only force genuinely expert in coldwater navigation. 
 
-Ealdorfold's accessible coastline, dominated by the broad foggy channel of the Mistigsund, punishes those without Ealdorfold escort. The port of Aethelburh is Wattle's primary northern trade connection, and thus, at one remove, touches Daub and the Empire.
+Ealdorfold's accessible coastline, dominated by the broad foggy channel of the Mistigsund, punishes those without Ealdorfold escort. The port of Roke's Landing connects to Aethelburh; this is Wattle's primary northern trade connection, and thus, at one remove, touches Daub and the Empire.
 
 More immediately relevant to Your Grace's position: Staanbyrig, the great mining city carved into the Eesenhlaw highlands, produces a steel we cannot replicate. The alloy is harder than anything Singhapura or Wattle manufactures, and it incorporates the Tungolstaanas - the star-stones from the Tungolsweorc craters - through processes the Staanwearda guilds guard with jealous care. 
 
