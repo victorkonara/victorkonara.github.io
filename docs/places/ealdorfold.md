@@ -10,9 +10,10 @@ layout: default
 
 I must confess at the outset that what follows is drawn from secondhand accounts, merchant reports, and the careful inferences of scholars who have north of Wattle. Your Grace should weigh it accordingly. I have omitted nothing I believe useful, but, having not explored these lands myself, there may be considerable gaps in the knowledge herein.
 
-Ealdorfold is an ancient place. In what scholars call the Aethelgarthian age, it sustained a kingdom of considerable sophistication. This kingdom was not ended not by conquest or decay, but by the Tungolsweorc: great boulders fell from the sky, the land was cratered, the civilization erased. In this we find the cause of previous calamities, among them the fall of Samarskand, and the drowning of Taprobane, even of Wattle and Daub rebuilding from Himakatupura; and yet Ealdorfold, as we know it, cannot be said to have climbed back to those heights.
+Ealdorfold is an ancient place. In what scholars call the Aethelgarthian age, it sustained a kingdom of considerable sophistication. This kingdom was not ended not by conquest or decay, but by the Tungolsweorc: great boulders fell from the sky, the land was cratered, the civilization erased. 
 
-I note this not as a curiosity but as a political fact. A people who believe themselves diminished are a people with something to prove, and thus may be goaded or enticed in ways that others cannot.
+In this we find the cause of previous calamities, among them the fall of Samarskand, and the drowning of Taprobane, even of Wattle and Daub rebuilding from Himakatupura; and yet Ealdorfold, as we know it, cannot be said to have climbed back to those heights.
+
 
 ## Of Their Military and Commercial Position
 
@@ -22,13 +23,17 @@ However, the Ealdorfold navy is among the finest operating in northern waters. I
 
 Ealdorfold's accessible coastline, dominated by the broad foggy channel of the Mistigsund, punishes those without Ealdorfold escort. The port of Roke's Landing connects to Aethelburh; this is Wattle's primary northern trade connection, and thus, at one remove, touches Daub and the Empire.
 
-More immediately relevant to Your Grace's position: Staanbyrig, the great mining city carved into the Eesenhlaw highlands, produces a steel we cannot replicate. The alloy is harder than anything Singhapura or Wattle manufactures, and it incorporates the Tungolstaanas - the star-stones from the Tungolsweorc craters - through processes the Staanwearda guilds guard with jealous care. 
+From Aethelburh, to the North, lies Weligadael, which in our tongue translates to something close to "valley of prosperity" or "wealth-dale"; thereing lies much fertile farmland and forts and manors of the powerful of Ealdorfold. 
 
-The Empire imports heavily from this source. The guilds are aware of their leverage and exercise it without apology. A supply that cannot be substituted and cannot be seized without destroying the thing that makes it valuable is among the most durable forms of power available to a small state. Your Grace's own arrangements with the Merchants Guild follow a similar logic, and I trust you will recognize the pattern.
+Inward lies the mountains and the fortress-town of Cynebald's Rest; this interior, which leads to Staanbyrig, the great mining city carved into the Eesenhlaw highlands, is guarded with forts up its passage. Our information on the exact disposition of these places is not very fine; map-makers and surveyors are treated with great suspicion, and often we must rely on bard's tales to position our maps. 
+
+More immediately relevant to Your Grace's position: Staanbyrig produces a steel we cannot replicate. The alloy is harder than anything Singhapura or Wattle manufactures, and it incorporates the Tungolstaanas through processes the Staanwearda guilds guard with jealous care. 
+
+The Empire imports heavily from this source. The guilds of Staanbyrig are aware of their leverage in this matter; a supply that cannot be easily substituted and cannot be seized is among the most durable forms of power. Thus 
 
 ## Of Galdorcraeft and Its Implications
 
-The magic of Ealdorfold - is galdorcraeft, or the Craft as they call it. To us it falls within the domain of Invoking, as understood by the Taprobane scholars. Where the Taprobane system works through formal structure and language, galdorcraeft operates through what its practitioners call the Sympathy: a perception of hidden connections between things, worked through sound, intention, and material.
+The magic of Ealdorfold is galdorcraeft, or the Craft as they call it. To us it falls within the domain of Invoking, as understood by the Taprobane scholars. Where the Taprobane system works through formal structure and language, galdorcraeft operates through what its practitioners call the Sympathy: a perception of hidden connections between things, worked through sound, intention, and material.
 
 Ealdorfold is unique in that the land breeds magicians like the Church breeds priests. The Tungolstaana craters seed the land; children born in crater-country manifest the Craft involuntarily. Ealdorfold's magical population is thus a product of the land itself. Galdors themselves are prohibited from leaving Ealdorfold, though over the years there have been a few defectors.
 
@@ -46,7 +51,7 @@ The governing body of Ealdorfold is the Leohtgield: a rotating council with a sh
 
 As of present, this is Ursule, Queen Under Heaven, as she is styled. She is in the fifteenth year of her reign. Not much is known about her; she is known only to speak to ambassadors through an intermediary. This intermediary, styled the Speaker, is the object of much interest.
 
-Much of this structure is, in practice, a device for remaining indigestible to Singhapura. The Empire has Wattle. It has Daub. It has Tangowan to the south. The Leohtgield's members have oriented themselves steadfastly toward making acquisition more costly than the Empire can justify. In this Your Grace is well-advised to make some study of them.
+We suspect that much of this structur is a device for remaining indigestible to Singhapura. The Empire has Wattle. It has Daub. It has Tangowan to the south. The Leohtgield's members have oriented themselves steadfastly toward making acquisition more costly than the Empire can justify. In this Your Grace is well-advised to make some study of them.
 
 However, the extremes displayed may yet be its downfall. The Leohtgield, in its dealings with the Empire, has become a force bent on conservation. Foreign loan-words have been purged from the language; many classes citizens may not leave their borders without permission; trade and diplomacy are confined to that one port; and the Haugris Church and the worship of Raavan are banned under pain of public execution. Your Grace will appreciate the alternative logic: they have chosen exclusion where you have chosen equilibrium. In this we have an example of the road not travelled by, and thus an opportunity to observe both perils and pitfalls of the approach; and thus Your Grace may make careful amendments to your policies as new events unfold, at no risk to your people or city.
 
