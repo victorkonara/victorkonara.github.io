@@ -1,6 +1,6 @@
 ---
 title: Of Magic
-parent: The World
+parent: The World According to Art
 layout: default
 nav_order: 1
 has_children: true

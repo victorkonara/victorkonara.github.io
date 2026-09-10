@@ -1,7 +1,7 @@
 ---
 title: The History of Singhapura
 parent: Other Records of Note
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 3
 layout: default
 ---

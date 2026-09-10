@@ -1,6 +1,7 @@
 ---
 title: "A Sorcerer's Tail"
 subtitle: "Book One of Whatever This Trilogy's Called, Really"
+series: "Claws and Effect"
 date: 2026-06-13
 # Path to cover art, relative to the site root, e.g. /assets/images/books/a-sorcerers-tail.jpg
 # Leave blank to show a placeholder instead.

@@ -1,5 +1,25 @@
 // Victor Konara — Imperial Archive custom styles
 
+// ── Pixel-UI devices ───────────────────────────────────────────
+// Shared "sprite" building blocks reused across buttons, frames,
+// dividers, and callouts, so the game-palette motif reads as one
+// consistent device rather than several unrelated ideas.
+%pixel-notch {
+  clip-path: polygon(
+    0 8px, 8px 8px, 8px 0,
+    calc(100% - 8px) 0, calc(100% - 8px) 8px, 100% 8px,
+    100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%,
+    8px 100%, 8px calc(100% - 8px), 0 calc(100% - 8px)
+  );
+}
+
+// clip-path clips box-shadow along with it, so the hard offset "sprite
+// shadow" has to be a drop-shadow filter — it follows the clipped
+// silhouette instead of the unclipped box.
+%pixel-shadow {
+  filter: drop-shadow(5px 5px 0 $border-color);
+}
+
 // ── Typography ─────────────────────────────────────────────────
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-family;
@@ -34,21 +54,24 @@ body {
 // ── Ornamental rules ───────────────────────────────────────────
 hr {
   border: none;
-  height: 1px;
-  background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+  height: 4px;
   margin: 2.5rem 0;
   position: relative;
+  background: repeating-linear-gradient(to right, $border-color 0 8px, transparent 8px 12px);
 
   &::after {
-    content: '✦';
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
+    width: 16px;
+    height: 16px;
     transform: translate(-50%, -50%);
-    background: $body-background-color;
-    color: $body-heading-color;
-    font-size: 0.7rem;
-    padding: 0 0.5rem;
+    background-color: $body-background-color;
+    background-image: $pixel-star-gold;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -73,12 +96,19 @@ hr {
     text-wrap: pretty;
   }
 
-  // A comfortable reading measure (~70 characters), left-set within the
-  // wider content column so the freed space on the right stays available
-  // for a future margin-note treatment. Dividers, titles, and media keep
-  // the full column width, which is what gives the page-block contrast.
-  > p, > ul, > ol, > dl, > blockquote, h2, h3, h4, h5, h6 {
-    max-width: 70ch;
+  // A comfortable reading measure (~70 characters). This used to be
+  // `70ch`, which is the bug: ch is sized against each element's OWN
+  // font-size, not a shared one. h1 (2.4rem) and h2 (1.6rem) render
+  // noticeably larger than body text (1.05rem), so "70 characters" of
+  // heading measured far more pixels than "70 characters" of paragraph
+  // text — that's what was pushing titles and subtitles past the
+  // paragraphs' right edge, not a wrapping bug in the paragraphs
+  // themselves. A fixed rem value gives every element here the same
+  // measure regardless of its own font-size. Dividers and media still
+  // span the full column width — that contrast is intentional and
+  // isn't part of what was reported.
+  > h1, > p, > ul, > ol, > dl, > blockquote, h2, h3, h4, h5, h6 {
+    max-width: 37rem;
   }
 
   // A reader's selection reads as ink on parchment, not browser-blue
@@ -95,11 +125,10 @@ hr {
     line-height: 0.82;
     float: left;
     margin: 0.04em 0.12em 0 0;
-    padding: 0.06em 0.12em;
+    padding: 0.08em 0.14em;
     color: $body-heading-color;
-    background: linear-gradient(135deg, rgba($link-color, 0.12), rgba($link-color, 0.02));
-    border: 1px solid rgba($border-color, 0.6);
-    border-radius: 2px;
+    background: rgba($link-color, 0.12);
+    border: 2px solid $border-color;
   }
 
   // The rest of that opening line reads as small caps, in the manner of
@@ -132,20 +161,23 @@ hr {
       top: 0;
       left: 0;
       right: 0;
-      height: 1px;
-      background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+      height: 4px;
+      background: repeating-linear-gradient(to right, $border-color 0 8px, transparent 8px 12px);
     }
 
     &::before {
-      content: '✦';
+      content: '';
       position: absolute;
-      top: 0;
+      top: -6px;
       left: 50%;
+      width: 16px;
+      height: 16px;
       transform: translate(-50%, -50%);
-      background: $body-background-color;
-      color: $body-heading-color;
-      font-size: 0.7rem;
-      padding: 0 0.5rem;
+      background-color: $body-background-color;
+      background-image: $pixel-star-gold;
+      background-size: 12px 12px;
+      background-repeat: no-repeat;
+      background-position: center;
       z-index: 1;
     }
   }
@@ -161,22 +193,25 @@ hr {
 }
 
 .colophon-divider {
-  width: 160px;
-  height: 1px;
+  width: 140px;
+  height: 4px;
   margin: 0 auto 1.25rem;
   position: relative;
-  background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
+  background: repeating-linear-gradient(to right, $border-color 0 8px, transparent 8px 12px);
 
   &::after {
-    content: '✦';
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
+    width: 16px;
+    height: 16px;
     transform: translate(-50%, -50%);
-    background: $body-background-color;
-    color: $body-heading-color;
-    font-size: 0.7rem;
-    padding: 0 0.5rem;
+    background-color: $body-background-color;
+    background-image: $pixel-star-gold;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -199,12 +234,11 @@ hr {
 
 // ── Blockquotes ────────────────────────────────────────────────
 blockquote {
-  border-left: 3px solid rgba($body-heading-color, 0.4);
+  border-left: 4px solid $body-heading-color;
   padding: 0.75rem 1.25rem;
   color: rgba($body-text-color, 0.8);
   font-style: italic;
-  background: rgba($body-heading-color, 0.05);
-  border-radius: 0 3px 3px 0;
+  background: rgba($body-heading-color, 0.06);
   margin: 1.5rem 0;
 }
 
@@ -238,16 +272,28 @@ a {
 
 // ── Sidebar ────────────────────────────────────────────────────
 .side-bar {
-  background-color: $sidebar-color;
-  border-right: 1px solid $border-color;
-  box-shadow: 4px 0 32px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(180deg, $sidebar-color 0%, lighten($sidebar-color, 12%) 100%);
+  border-right: 3px solid $border-color;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.15);
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.5;
+    pointer-events: none;
+    background-image: $pixel-star-firefly, $pixel-star-firefly;
+    background-size: 10px 10px, 7px 7px;
+    background-position: 12% 18%, 78% 62%;
+    background-repeat: no-repeat, no-repeat;
+  }
 }
 
 .nav-list .nav-list-link {
   color: $nav-child-link-color !important;
-  font-family: $heading-font-family;
+  font-family: $body-font-family;
   font-size: 1.05rem;
-  letter-spacing: 0.05em;
 
   &:hover {
     color: $sidebar-text-hover-color !important;
@@ -257,37 +303,38 @@ a {
 .nav-list .nav-list .nav-list-link {
   color: $amber-000 !important;
   font-weight: 400;
+  font-size: 0.95rem;
 }
 
 .site-title,
 .nav-category {
-  font-family: $heading-font-family;
+  font-family: $pixel-font-family;
   color: $nav-child-link-color !important;
-  opacity: 0.6;
-  letter-spacing: 0.1em;
-  font-size: 0.92rem;
+  opacity: 0.75;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
 .site-title {
   opacity: 1;
-  font-size: 1.3rem;
+  font-family: $heading-font-family;
+  font-size: 1.35rem;
   font-weight: 700;
-  color: $body-heading-color !important;
+  text-transform: none;
+  letter-spacing: 0.01em;
 }
 
 .side-bar,
-.nav-list,
-.nav-category,
 .aux-nav {
-  font-family: $heading-font-family;
+  font-family: $body-font-family;
 }
 
 // ── Images ─────────────────────────────────────────────────────
 .main-content img {
-  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6), 0 1.5px 8px rgba(0, 0, 0, 0.4);
-  border-radius: 2px;
-  border: 1px solid $border-color;
+  @extend %pixel-notch;
+  @extend %pixel-shadow;
+  border: 3px solid $border-color;
   max-width: 100%;
   height: auto;
 }
@@ -299,9 +346,9 @@ table {
   margin: 1.5rem 0;
 
   th {
-    font-family: $heading-font-family;
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
+    font-family: $pixel-font-family;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: $body-heading-color;
     background: rgba($link-color, 0.08);
@@ -322,93 +369,100 @@ table {
 
 // ── Home page ──────────────────────────────────────────────────
 .home-hero {
-  min-height: 85vh;
+  position: relative;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 3.5rem 2rem 3rem;
   text-align: center;
-  padding: 4rem 2rem;
-  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 640px 420px at 50% 27%, rgba($sidebar-text-hover-color, 0.3), transparent 70%),
+    linear-gradient(to bottom, $sidebar-color 0%, lighten($sidebar-color, 12%) 20%, #8fa3c4 36%, #f2c07a 52%, $body-background-color 74%, $body-background-color 100%);
+
+  // Drifting pixel clouds in the upper (sky) portion of the hero only
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46%;
+    pointer-events: none;
+    opacity: 0.9;
+    background-image: $pixel-cloud, $pixel-cloud;
+    background-size: 220px 110px, 140px 70px;
+    background-position: 8% 12%, 74% 30%;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  // Keep all real content above the sky/cloud layers
+  > * {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .home-penname {
-  font-family: $heading-font-family;
-  font-size: 0.75rem;
-  letter-spacing: 0.35em;
+  font-family: $pixel-font-family;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: $link-color;
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
+  color: $nav-child-link-color;
+  margin: 1rem 0 1.6rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .home-cover {
+  @extend %pixel-notch;
+  @extend %pixel-shadow;
   display: block;
   width: 100%;
-  max-width: 220px;
+  max-width: 200px;
   height: auto;
   margin: 0 auto 2rem;
-  border-radius: 2px;
-  border: 1px solid $border-color;
-  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6), 0 1.5px 8px rgba(0, 0, 0, 0.4);
+  border: 3px solid $border-color;
 }
 
 .home-book-title {
   font-family: $heading-font-family !important;
-  font-size: clamp(2.8rem, 7vw, 5.5rem) !important;
+  font-size: clamp(2.6rem, 6.2vw, 4.8rem) !important;
   font-weight: 700 !important;
   line-height: 1.05 !important;
-  letter-spacing: 0.04em;
-  margin: 0 0 0.5rem !important;
-  text-shadow: 
-    // Close shadow for definition
-    1px 1px 2px rgba(0, 0, 0, 0.3),
-    // Mid-distance amber glow for warmth
-    0 4px 8px rgba(160, 80, 16, 0.25),
-    // Far shadow for depth
-    0 8px 16px rgba(0, 0, 0, 0.4),
-    // Extra distant shadow for sophistication
-    0 16px 32px rgba(0, 0, 0, 0.25);
+  margin: 0.25rem 0 0.5rem !important;
+  background-image: linear-gradient(135deg, $sidebar-text-hover-color 0%, $link-color 45%, $ember-color 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent !important;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .home-book-subtitle {
-  font-family: $heading-font-family;
-  font-size: 0.85rem;
-  letter-spacing: 0.2em;
+  font-family: $pixel-font-family;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $link-color;
-  margin-bottom: 2rem;
-  opacity: 0.75;
+  color: $body-text-color;
+  margin-bottom: 1.75rem;
+  opacity: 0.8;
 }
 
 .home-divider {
-  width: 120px;
-  height: 1px;
-  background: linear-gradient(to right, transparent, $border-color 20%, $link-color 50%, $border-color 80%, transparent);
-  margin: 1.5rem auto;
-  position: relative;
-
-  &::after {
-    content: '✦';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: $body-background-color;
-    color: $body-heading-color;
-    font-size: 0.7rem;
-    padding: 0 0.5rem;
-  }
+  width: 100px;
+  height: 4px;
+  margin: 1.25rem auto;
+  background: repeating-linear-gradient(to right, $border-color 0 8px, transparent 8px 12px);
 }
 
 .home-blurb {
   font-family: $body-font-family;
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   line-height: 1.75;
-  color: rgba($body-text-color, 0.85);
-  max-width: 580px;
-  margin: 0 auto 2.5rem;
-  font-style: italic;
+  color: rgba($body-text-color, 0.9);
+  max-width: 560px;
+  margin: 0 auto 2.25rem;
   text-align: left;
 
   p {
@@ -432,57 +486,62 @@ table {
 }
 
 .btn-book {
-  font-family: $heading-font-family;
-  font-size: 0.72rem;
-  letter-spacing: 0.15em;
+  @extend %pixel-notch;
+  font-family: $pixel-font-family;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 0.65rem 1.4rem;
-  border: 1px solid $link-color;
-  color: $link-color !important;
-  background: rgba($link-color, 0.08);
-  border-radius: 2px;
+  padding: 0.7rem 1.3rem;
+  border: 2px solid $border-color;
+  color: $body-heading-color !important;
+  background: $body-background-color;
   text-decoration: none;
-  border-bottom: 1px solid $link-color !important;
-  transition: background 0.2s, color 0.2s;
+  filter: drop-shadow(3px 3px 0 $border-color);
+  transition: transform 0.08s ease, filter 0.08s ease;
 
   &:hover {
-    background: $link-color;
-    color: #f7f0e0 !important;
+    transform: translate(3px, 3px);
+    filter: drop-shadow(0 0 0 transparent);
   }
 
   &.btn-book-primary {
-    background: $link-color;
-    color: #f7f0e0 !important;
+    background: $ember-color;
+    border-color: darken($ember-color, 14%);
+    color: #f4ecd8 !important;
   }
 }
 
-.home-archive-cta {
-  margin-top: 1rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid rgba($border-color, 0.5);
+// ── Village scene band ─────────────────────────────────────────
+// A pixel-art scene used on the home page and About page, composed
+// from the Tiny Town + Tiny Dungeon CC0 sets (Kenney, kenney.nl —
+// see about.md for credit). image-rendering keeps it crisp when the
+// browser scales it down from its native resolution.
+.village-scene {
+  max-width: 1100px;
+  margin: 0 auto;
   text-align: center;
-  width: 100%;
+  padding: 1rem 1.5rem 4rem;
+}
 
-  p {
-    font-family: $heading-font-family;
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: rgba($body-text-color, 0.45);
-    margin-bottom: 0.75rem;
-  }
+.village-scene-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.village-scene-caption {
+  font-family: $pixel-font-family;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: rgba($body-text-color, 0.7);
+  margin-top: 1.5rem;
 
   a {
-    font-family: $heading-font-family;
-    font-size: 0.85rem;
-    letter-spacing: 0.12em;
-    color: rgba($body-text-color, 0.65);
-    background-image: linear-gradient(to right, rgba($border-color, 0.7), rgba($border-color, 0.7));
-
-    &:hover {
-      color: $link-hover-color;
-      background-image: linear-gradient(to right, rgba($link-hover-color, 0.9), rgba($link-hover-color, 0.9));
-    }
+    color: $link-color;
+    margin-left: 0.4em;
   }
 }
 
@@ -494,25 +553,25 @@ $callout-types: note, important, highlight, warning, new;
 
 @each $type in $callout-types {
   .#{$type} {
-    border-radius: 1px;
+    @extend %pixel-notch;
     font-size: 0.95rem;
 
     &::before,
     > .#{$type}-title {
-      font-family: $heading-font-family;
-      font-size: 0.72rem;
-      letter-spacing: 0.12em;
+      font-family: $pixel-font-family;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
     }
   }
 
   .#{$type}-title {
-    border-radius: 1px;
+    @extend %pixel-notch;
     font-size: 0.95rem;
 
     > p:first-child {
-      font-family: $heading-font-family;
-      font-size: 0.72rem;
-      letter-spacing: 0.12em;
+      font-family: $pixel-font-family;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
     }
   }
 }
@@ -528,15 +587,14 @@ $callout-types: note, important, highlight, warning, new;
 // ── Archive section labels ─────────────────────────────────────
 .archive-label {
   display: inline-block;
-  font-family: $heading-font-family;
-  font-size: 0.65rem;
-  letter-spacing: 0.2em;
+  font-family: $pixel-font-family;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: $link-color;
-  border: 1px solid rgba($link-color, 0.4);
-  padding: 0.15em 0.5em;
-  border-radius: 2px;
-  margin-right: 0.5rem;
+  border: 1px solid $link-color;
+  padding: 0.2em 0.5em;
+  margin: 0 0.5rem 0.4rem 0;
   vertical-align: middle;
 }
 
@@ -563,12 +621,12 @@ $callout-types: note, important, highlight, warning, new;
   width: 180px;
 
   img {
+    @extend %pixel-notch;
+    @extend %pixel-shadow;
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 2px;
-    border: 1px solid $border-color;
-    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6), 0 1.5px 8px rgba(0, 0, 0, 0.4);
+    border: 3px solid $border-color;
   }
 }
 

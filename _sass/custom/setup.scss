@@ -2,9 +2,25 @@
 // Fonts are loaded via <link> in head_custom.html, not @import, to avoid FOUT waterfall.
 
 $body-font-family:    'Spectral', Georgia, 'Times New Roman', serif !default;
-$heading-font-family: 'Cinzel', 'Trajan Pro', Georgia, serif !default;
+$heading-font-family: 'Fraunces', Georgia, serif !default;
 $mono-font-family:    'Courier Prime', 'SFMono-Regular', menlo, monospace !default;
 
 $root-font-size:  18px !default;
 $body-line-height: 1.7 !default;
 $amber-000: #c8850a !default;
+
+// ── Pixel-UI accents ──────────────────────────────────────────
+// Not wired into _config.yml's design: block like the rest of the
+// palette — wire it in the same way (see just-the-docs.scss.liquid)
+// if you want it swappable too.
+$pixel-font-family: 'Pixelify Sans', 'Press Start 2P', monospace !default;
+$ember-color: #a8451f !default;
+
+// Hand-built pixel sprites as inline SVG data URIs, same technique as
+// the body grain texture in custom.scss. Fill colors are hardcoded to
+// match the design: palette in _config.yml — if you change body_link,
+// sidebar_text_hover, or body_background there, update the matching
+// %23-prefixed fill below too.
+$pixel-star-gold:    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' shape-rendering='crispEdges' fill='%238f5a0e'%3E%3Crect x='4' y='0' width='4' height='4'/%3E%3Crect x='0' y='4' width='4' height='4'/%3E%3Crect x='4' y='4' width='4' height='4'/%3E%3Crect x='8' y='4' width='4' height='4'/%3E%3Crect x='4' y='8' width='4' height='4'/%3E%3C/svg%3E");
+$pixel-star-firefly: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' shape-rendering='crispEdges' fill='%23f4d35e'%3E%3Crect x='4' y='0' width='4' height='4'/%3E%3Crect x='0' y='4' width='4' height='4'/%3E%3Crect x='4' y='4' width='4' height='4'/%3E%3Crect x='8' y='4' width='4' height='4'/%3E%3Crect x='4' y='8' width='4' height='4'/%3E%3C/svg%3E");
+$pixel-cloud:        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 24' shape-rendering='crispEdges' fill='%23fbf0d9' fill-opacity='.85'%3E%3Crect x='12' y='0' width='6' height='6'/%3E%3Crect x='18' y='0' width='6' height='6'/%3E%3Crect x='24' y='0' width='6' height='6'/%3E%3Crect x='30' y='0' width='6' height='6'/%3E%3Crect x='6' y='6' width='6' height='6'/%3E%3Crect x='12' y='6' width='6' height='6'/%3E%3Crect x='18' y='6' width='6' height='6'/%3E%3Crect x='24' y='6' width='6' height='6'/%3E%3Crect x='30' y='6' width='6' height='6'/%3E%3Crect x='36' y='6' width='6' height='6'/%3E%3Crect x='0' y='12' width='6' height='6'/%3E%3Crect x='6' y='12' width='6' height='6'/%3E%3Crect x='12' y='12' width='6' height='6'/%3E%3Crect x='18' y='12' width='6' height='6'/%3E%3Crect x='24' y='12' width='6' height='6'/%3E%3Crect x='30' y='12' width='6' height='6'/%3E%3Crect x='36' y='12' width='6' height='6'/%3E%3Crect x='42' y='12' width='6' height='6'/%3E%3Crect x='6' y='18' width='6' height='6'/%3E%3Crect x='12' y='18' width='6' height='6'/%3E%3Crect x='18' y='18' width='6' height='6'/%3E%3Crect x='24' y='18' width='6' height='6'/%3E%3Crect x='30' y='18' width='6' height='6'/%3E%3Crect x='36' y='18' width='6' height='6'/%3E%3C/svg%3E");

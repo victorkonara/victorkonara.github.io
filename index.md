@@ -29,9 +29,9 @@ permalink: /
 
 {% include components/book-buy-links.html links=book.links class="home-buy-links" %}
 
-<div class="home-archive-cta">
-  <p style="color: {{ home_colors.cta_text_color }};">Being a treatise written for the Duchess of Daub</p>
-  <a href="/docs/" style="color: {{ home_colors.cta_link_color }};">Read about the World →</a>
 </div>
 
-</div>
+<section class="village-scene">
+  <img class="village-scene-img" src="{{ '/assets/images/home-village.png' | relative_url }}" alt="A small pixel-art village scene: a stone cottage, a watchtower, a knight standing watch, and a villager going about their day." loading="lazy">
+  <p class="village-scene-caption">Art's been to many places like this. <a href="{{ '/docs/' | relative_url }}">Explore the World →</a></p>
+</section>

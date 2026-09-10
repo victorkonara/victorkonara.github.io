@@ -1,7 +1,7 @@
 ---
 title: On the Nature of States
 parent: Of Provinces
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 9
 layout: default
 ---

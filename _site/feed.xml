@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Victor Konara — Updates</title>
+  <subtitle>Fiction and worldbuilding from Victor Konara. Home of A Sorcerer&apos;s Tail and the Imperial Archive.</subtitle>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
+  <id>http://localhost:4000/</id>
+  <updated>2026-09-10T15:17:37+05:30</updated>
+  <author>
+    <name>Victor Konara</name>
+  </author><entry>
+    <title>Welcome to Updates</title>
+    <link href="http://localhost:4000/updates/welcome-to-updates/" rel="alternate" type="text/html"/>
+    <id>http://localhost:4000/updates/welcome-to-updates/</id>
+    <published>2026-06-14T00:00:00+05:30</published>
+    <updated>2026-06-14T00:00:00+05:30</updated>
+    <summary>A new place to follow news on A Sorcerer&apos;s Tail and the rest of the Imperial Archive series.</summary>
+  </entry>
+</feed>

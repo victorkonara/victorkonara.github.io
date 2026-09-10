@@ -1,7 +1,7 @@
 ---
 title: Foreign Peoples and Distant Dominions
 parent: Of Provinces
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 8
 layout: default
 ---

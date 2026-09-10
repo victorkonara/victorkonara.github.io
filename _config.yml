@@ -101,34 +101,34 @@ color_scheme: classic
 # ---------------------------------------------------------------
 design:
   # Page background & text
-  body_background:     "#f7f0e0"
-  body_text:           "#2a1a08"
-  body_heading:        "#7a2e0a"
+  body_background:     "#fbf0d9"
+  body_text:           "#2f2a1f"
+  body_heading:        "#2f5c3d"
   
   # Body links
-  body_link:           "#a05010"
-  body_link_hover:     "#a05010"
+  body_link:           "#8f5a0e"
+  body_link_hover:     "#744609"
   
   # Sidebar & navigation
-  sidebar_background:  "#3C524A"
-  sidebar_text:        "#faf8f3"
-  sidebar_text_hover:  "#e8d5b0"
-  sidebar_subtext:     "#e8d5b0"
+  sidebar_background:  "#2c3c56"
+  sidebar_text:        "#f4ecd8"
+  sidebar_text_hover:  "#f4d35e"
+  sidebar_subtext:     "#a9bcd6"
   
   # Decorative elements
-  border:              "#c8a870"
+  border:              "#7a5a35"
 
-  heading_font: "'Cinzel', Georgia, serif"
+  heading_font: "'Fraunces', Georgia, serif"
   body_font:    "'Spectral', Georgia, 'Times New Roman', serif"
 
   home:
-    penname_color:   "#7a2e0a"
-    title_color:     "#2a1a08"
-    subtitle_color:  "#7a2e0a"
-    blurb_color:     "#2a1a08"
-    divider_color:   "#c8a870"
-    cta_text_color:  "#7a2e0a"
-    cta_link_color:  "#a05010"
+    penname_color:   "#f4ecd8"
+    title_color:     "#2f5c3d"
+    subtitle_color:  "#2f2a1f"
+    blurb_color:     "#2f2a1f"
+    divider_color:   "#7a5a35"
+    cta_text_color:  "#5c6f57"
+    cta_link_color:  "#8f5a0e"
 
 callouts_level: quiet
 callouts:

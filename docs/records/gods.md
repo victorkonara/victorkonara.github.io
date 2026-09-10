@@ -1,7 +1,7 @@
 ---
 title: Gods of the Empire and the North
 parent: Other Records of Note
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 9
 layout: default
 ---

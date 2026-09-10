@@ -1,6 +1,6 @@
 ---
 title: Other Records of Note
-parent: The World
+parent: The World According to Art
 layout: default
 nav_order: 4
 has_children: true

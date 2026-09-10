@@ -1,7 +1,7 @@
 ---
 title: The Rosantic League
 parent: Of Provinces
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 6
 layout: default
 ---

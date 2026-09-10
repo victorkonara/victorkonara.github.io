@@ -1,6 +1,6 @@
 ---
 title: Of Provinces
-parent: The World
+parent: The World According to Art
 layout: default
 nav_order: 2
 has_children: true

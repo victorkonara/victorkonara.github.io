@@ -1,7 +1,7 @@
 ---
 title: Of Emotion and Detection
 parent: Of Magic
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 6
 layout: default
 ---

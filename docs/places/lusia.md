@@ -1,7 +1,7 @@
 ---
 title: Lusia
 parent: Of Provinces
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 4
 layout: default
 ---

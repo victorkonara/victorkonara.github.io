@@ -1,7 +1,7 @@
 ---
 title: Samarskand and the Ancient World
 parent: Other Records of Note
-grand_parent: The World
+grand_parent: The World According to Art
 nav_order: 1
 layout: default
 ---
