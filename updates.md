@@ -1,7 +1,7 @@
 ---
 title: Updates
 layout: default
-nav_order: 6
+nav_order: 7
 permalink: /updates/
 description: "News and updates from Victor Konara on A Sorcerer's Tail and the Imperial Archive series."
 ---

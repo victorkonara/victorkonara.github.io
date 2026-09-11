@@ -755,5 +755,54 @@ $callout-types: note, important, highlight, warning, new;
   }
 }
 
+// ── Maps page ──────────────────────────────────────────────────
+.map-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-top: 2rem;
+}
+
+.map-entry {
+  margin: 0;
+}
+
+.map-entry-title {
+  margin-bottom: 1rem !important;
+}
+
+.map-entry-link {
+  display: block;
+  cursor: zoom-in;
+
+  &:hover img {
+    filter: brightness(1.03);
+  }
+}
+
+.map-entry-hint {
+  font-family: $pixel-font-family;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba($body-text-color, 0.5);
+  margin: 0.6rem 0 0;
+}
+
+.map-entry-caption {
+  margin-top: 1.25rem;
+  color: rgba($body-text-color, 0.85);
+  font-size: 1rem;
+  line-height: 1.7;
+
+  p {
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 // Import shelf styles
 @import "shelf";

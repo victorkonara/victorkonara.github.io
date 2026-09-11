@@ -1,15 +1,21 @@
 ---
-title: Map
-parent: The World According to Art
-nav_order: 0
+title: Map (retired)
 layout: default
+published: false
 ---
 
-# Map
+<!-- This page moved. It used to live here, nested under "The World
+     According to Art," but a nav item that only holds one map image
+     doesn't need its own sub-page — and Victor wants a top-level
+     Maps section that can hold more than one map as the setting
+     grows. The new page is /map.md at the site root: title "Maps",
+     nav_order 6, sitting beside "The World According to Art" rather
+     than under it. See _includes/components/map-entry.html for how
+     each map entry (image + optional caption) is rendered, and add
+     new maps by adding entries to /map.md's `maps:` front matter —
+     no HTML needed.
 
-<!-- TODO (Victor): drop the map image in and point this at it, e.g.
-<img src="/assets/images/map.png" alt="Map of Singhapura and its neighboring domains">
-It'll pick up the same gold-framed pixel-notch border as every other
-image in .main-content — see .main-content img in custom.scss. -->
-
-<!-- TODO (Victor): flavor text about the map, in Art's voice -->
+     `published: false` drops this file from the build entirely,
+     same as the pattern used to hold heathens.md back before launch.
+     Kept around rather than deleted so the history isn't lost; safe
+     to delete outright once you're sure you don't need it. -->

@@ -8809,6 +8809,51 @@ table tr:nth-child(even) td {
   margin: 0;
 }
 
+.map-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-top: 2rem;
+}
+
+.map-entry {
+  margin: 0;
+}
+
+.map-entry-title {
+  margin-bottom: 1rem !important;
+}
+
+.map-entry-link {
+  display: block;
+  cursor: zoom-in;
+}
+.map-entry-link:hover img {
+  filter: brightness(1.03);
+}
+
+.map-entry-hint {
+  font-family: "Pixelify Sans", "Press Start 2P", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(47, 42, 31, 0.5);
+  margin: 0.6rem 0 0;
+}
+
+.map-entry-caption {
+  margin-top: 1.25rem;
+  color: rgba(47, 42, 31, 0.85);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.map-entry-caption p {
+  margin: 0 0 1em;
+}
+.map-entry-caption p:last-child {
+  margin-bottom: 0;
+}
+
 .shelf-wrapper {
   padding: 1rem 0;
 }

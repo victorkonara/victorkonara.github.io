@@ -1,0 +1,23 @@
+{%- comment -%}
+  Include as:
+    {% include components/map-entry.html title=m.title image=m.image alt=m.alt caption=m.caption %}
+  Renders one map: an optional heading, the map image linked to itself
+  at full native resolution (opens in a new tab — these maps run far
+  higher-resolution than any page column, so "click through to see it
+  properly" beats trying to cram the whole thing inline), and an
+  optional caption underneath. Used in a loop by map.md, which is the
+  only place that needs touching to add another map — see that file's
+  `maps:` front matter list.
+{%- endcomment -%}
+{%- assign map_title = include.title -%}
+{%- assign map_image = include.image -%}
+{%- assign map_alt = include.alt | default: map_title | default: "Map" -%}
+{%- assign map_caption = include.caption -%}
+<figure class="map-entry">
+  {% if map_title %}<h2 class="map-entry-title">{{ map_title }}</h2>{% endif %}
+  <a class="map-entry-link" href="{{ map_image | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-resolution map{% if map_title %} of {{ map_title }}{% endif %} in a new tab">
+    <img src="{{ map_image | relative_url }}" alt="{{ map_alt }}" loading="lazy">
+  </a>
+  <p class="map-entry-hint">Click the map to view it at full resolution &rarr;</p>
+  {% if map_caption %}<figcaption class="map-entry-caption">{{ map_caption | markdownify }}</figcaption>{% endif %}
+</figure>
