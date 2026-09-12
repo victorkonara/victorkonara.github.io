@@ -8,19 +8,38 @@ has_children: true
 
 # Of Magic, and Its Uses in Governance
 
+This is about magic and how to make use of it. I heard Your Grace's critique on my last attempt - specifically *I don't care about the bloody theory, just tell me what use it is!*
 
-The chapters that follow concern magic. I understand that my previous attempt - *The Basics of Magic and Practical Applications for Governance* - was insufficient; Your Grace complained of the lack of political utility and the overdense explanation of theory.
+Firstly. There are two errors that the rich and the powerful (ie: yourself) make when dealing with magic. 
 
-There is a particular species of error to which rulers are prone in their dealings with magic, and it tends toward one of two equally ruinous extremes. The first is to ignore magic entirely, on the grounds that it is the province of specialists and therefore no more the ruler's concern than the details of tanning or glassblowing. The second is to treat magic as an infinite factory of wishes - to approach every difficulty with the assumption that a sufficiently powerful practitioner can resolve it, and to commit resources and reputation to magical solutions without understanding what those solutions cost. 
+The first error is ignoring it entirely and leaving it entirely up to the specialists. This tends to end badly when the specialists realize they can kill thousands with a thought (given enough setup) and don't really have to do what you want.
 
-Your Grace rules Daub. Daub sits at the intersection of more magical traditions, more active disciplines, and more unresolved consequences of past working than almost any other city in the known world, the Great Northern Waste being, as it were, a permanent demonstration. Avoiding magic in Daub is not a position that is available to you.
+Like what happened with Catherine's Gate. And the dungeons at Harrow's End in Wattle. Or even recent incidents, which we shall not speak of . . . 
 
-Thus I have attempted my quest a second time: to describe it at the level a ruler requires rather than the level a practitioner requires. I have here concerned myself largely with results, principles and the boundaries of what can reasonably be demanded, and have left aside the technical apparatus that fills the Taprobane libraries.
+The second error is treating magic like an infinite factory of wishes. When people commit to magical solutions without understanding what those solutions cost - well, the Waste is a great reminder of what can go wrong. 
 
-I have also assembled for Your Grace a sampling. There are thousands of potential Patterns and hundreds of Rituals, many of which are minor variations upon each other. Rather than exhaust Your Grace with a complete accounting, I have assembled here a broad repertoire of well-known workings drawn from the syllabus against which I myself was examined at Taprobane.
+This means yes, Your Grace, you will have to do some reading. And dare I say that the most useful ideas for for how to deploy magic often comes from outside universities and the like.
 
-Most of these Rituals originate with Taprobane or with the Lesser Theoretical University of Daub. The compiler differs between the two institutions: Taprobane Rituals require the Universal Ritual Interpreter, while LTU Rituals assume the availability of a Rossum's Universal Translator. Most practitioners of genuine competence carry discs or plates of tempered steel or bronze with both compilers etched upon them, and can draw a weaker but more portable alternative - the Ritual called Turing's Array - from memory if need be. 
+For example, if I invent a Ritual that gives me infinite lumber, that would be very nice - a curiosity, something to research, maybe an excellent reputation bump with the faculty. But to a carpenter? That's an infinite resource. To a king? Cheap housing, walls, shields, weapon shafts. To your Treasurer? A giant headache, because the price of wood is now effectively zero. 
 
-This is not a guarantee that all of them can be cast. Some require groups; some are possible in theory, but are functionally suicidal for the individual practitioner; some carry subtler prerequisites that my brief descriptions may do not fully convey. Your Grace should be warned that workings of large magnitudes require enormous suitably enormous compilers, and thus these are often formae, which take many days to inscribe and much effort to carry without being noticed. Examined together, however, they should give Your Grace a sound understanding of what magic can accomplish, and what it cannot. I have arranged them in practical order, as much as the subject permits.
+Your Grace rules Daub. Daub sits at the intersection of several magical traditions. Admittedly, none of them are as developed as in Wattle, let alone Singhapura, but this just means that the problems are simply in the future. Avoiding magic is not a position that is available to you.
 
-For serious study I recommend the abridged *Ustaad, Volumes One to Sixteen* from Taprobane University Press, originally written by Paragon Bolgoda and translated by myself; if your Grace desires but the principles and simpler workings, my own *Art of Magic* will serve.
+So, on my second attempt at this quest, here is what I have for you:
+
+One, the general theory of the workings of magic and types of practitioners involved, keeping largely to results and staying away from most of the technical. Where possible I have tried to give examples of who uses these different types and how.
+
+Two, a sampling from the Singhapura system of magics, which is also what the Lesser Thereotical University of Daub uses. There are thousands of potential Patterns and hundreds of Rituals, many of which are minor variations upon each other. Rather than fill a library, I have hand-picked a version of what we call the *common corpus* - well-known workings that most competent Masters are familiar with.  I have arranged them in as practical an order as I can think of. 
+
+This also lets me give Your Grace a warning. Not all magic can be done solo. Some require groups. Some require gifted Masters who can be quite expensive, and not the sort you keep on retainer. Ssome are possible in theory, but are functionally suicide. Some need resources. 
+
+Workings of large magnitudes especially require suitable enormous compilers and spell-plates, which means metal, metalworking, many days to inscribe, much effort to transport . . . sometimes it is much cheaper to hire men to watch your fields than to comission a magical scarecrow; sometimes it is easier send an ordinary army instead of a cabal of Masters.
+
+This is why I implore Your Grace, once again, to read, especially the magics I have listed.  Examined together  they should give Your Grace a basic understanding of what magic can accomplish, and what it cannot.
+
+There are some technicalities still. Most of these Rituals originate with Taprobane or with the Lesser Theoretical University of Daub. The compiler differs between the two institutions: Taprobane Rituals require the Universal Ritual Interpreter, while LTU Rituals assume  a Rossum's Universal Translator. 
+
+These are technicalities - but most practitioners available to Your Grace should have discs or plates of tempered steel or bronze with both compilers etched upon them, and should be able to draw the weaker but more portable Turing's Array from memorye. 
+
+This is the most basic test of competence I can think of. Anyone who cannot can be safely diregarded as an amateur. If Your Grace wants to hire someone, at least let them prove they know what they're doing. Confidence is more common than skill.
+
+For serious study I recommend the abridged *Ustaad, Volumes One to Sixteen* from Taprobane University Press, originally written by Paragon Bolgoda and translated by myself. If Your Grace wants just the principles and simpler workings, my own *Art of Magic* will serve, though I have to say that the target audience for that book was children under twelve. 
