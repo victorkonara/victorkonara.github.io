@@ -32,14 +32,14 @@ Two, a sampling from the Singhapura system of magics, which is also what the Les
 
 This also lets me give Your Grace a warning. Not all magic can be done solo. Some require groups. Some require gifted Masters who can be quite expensive, and not the sort you keep on retainer. Ssome are possible in theory, but are functionally suicide. Some need resources. 
 
-Workings of large magnitudes especially require suitable enormous compilers and spell-plates, which means metal, metalworking, many days to inscribe, much effort to transport . . . sometimes it is much cheaper to hire men to watch your fields than to comission a magical scarecrow; sometimes it is easier send an ordinary army instead of a cabal of Masters.
+Workings of large magnitudes often need materials. These include enormous compilers and spell-plates, which means metal, metalworking, many days to inscribe, much effort to transport . . . sometimes it is much cheaper to hire men to watch your fields than to comission a magical scarecrow; sometimes it is easier send an ordinary army instead of a cabal of Masters.
 
 This is why I implore Your Grace, once again, to read, especially the magics I have listed.  Examined together  they should give Your Grace a basic understanding of what magic can accomplish, and what it cannot.
 
-There are some technicalities still. Most of these Rituals originate with Taprobane or with the Lesser Theoretical University of Daub. The compiler differs between the two institutions: Taprobane Rituals require the Universal Ritual Interpreter, while LTU Rituals assume  a Rossum's Universal Translator. 
+There are some technicalities still. Most of these Rituals come from Taprobane or with the Lesser Theoretical University of Daub. The compiler differs between the two institutions: Taprobane Rituals require the Universal Ritual Interpreter, while LTU Rituals assume a Rossum's Universal Translator. 
 
-These are technicalities - but most practitioners available to Your Grace should have discs or plates of tempered steel or bronze with both compilers etched upon them, and should be able to draw the weaker but more portable Turing's Array from memorye. 
+Your Grace does not need to know how these things work, but you do need to understand how to spot people who do. Most practitioners available to Your Grace should have discs or plates of tempered steel or bronze with both compilers etched on them, and should be able to draw the weaker but more portable Turing's Array from memory. This is the most basic test of competence I can think of. Anyone who cannot can be safely diregarded as an amateur. 
 
-This is the most basic test of competence I can think of. Anyone who cannot can be safely diregarded as an amateur. If Your Grace wants to hire someone, at least let them prove they know what they're doing. Confidence is more common than skill.
+If Your Grace wants to hire someone, at least let them prove they know what they're doing. Confidence is more common than skill.
 
 For serious study I recommend the abridged *Ustaad, Volumes One to Sixteen* from Taprobane University Press, originally written by Paragon Bolgoda and translated by myself. If Your Grace wants just the principles and simpler workings, my own *Art of Magic* will serve, though I have to say that the target audience for that book was children under twelve. 
