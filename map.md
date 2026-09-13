@@ -49,7 +49,9 @@ I'm not a professional mapmaker, so these maps are drawn using [Wonderdraft](htt
 
 The compass rose at the bottom is an amalgam of the [Sandakapahana of the Ridi Viharaya](https://en.wikipedia.org/wiki/Ridi_Viharaya) in Kurunegala, Sri Lanka, which is relatively close to where I live and this [compass rose](https://commons.wikimedia.org/wiki/File:Compass_rose_1595.svg) I found while trawling Wikimedia Commons.
 
-As for inspiration, I was mostly looking at the [Carta Marina](https://en.wikipedia.org/wiki/Carta_marina), created by Swedish ecclesiastic Olaus Magnus and initially published in 1539, which was made with a process somewhat like I imagine Singhapura mapmakers might follow - drawing from older maps, like Ptolemy's work, and mixing in contemporary sources and sailors' descriptions as well as their own observations. We can safely assume that no Singhapura mapmaker has made it past Catherine's Gate yet . . .   
+As for inspiration, I was mostly looking at the [Carta Marina](https://en.wikipedia.org/wiki/Carta_marina), created by Swedish ecclesiastic Olaus Magnus and initially published in 1539, which was made with a process somewhat like I imagine Singhapura mapmakers might follow - drawing from older maps, like Ptolemy's work, and mixing in contemporary sources and sailors' descriptions as well as their own observations. We can safely assume that no Singhapura mapmaker has made it past Catherine's Gate yet . . . 
+
+I've also spent a bit too much time poring over ESA Sentinel-2 data over at [Watchdog](https://github.com/team-watchdog/satellite2024), so I suppose at some point the structure of waterways and farmland just got stuck in my head and wouldn't really leave.  
 
 <div class="map-list">
 {% for m in page.maps %}
