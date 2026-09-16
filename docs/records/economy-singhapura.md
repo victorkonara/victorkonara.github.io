@@ -14,7 +14,6 @@ Let us therefore speak of money, Your Grace, and begin with the Owl itself. It i
 
 What follows covers the guilds, the revenues, the trade, and the means by which smaller states come to depend upon the Empire. Daub is already inside this system. If Your Grace is to be held by it, it is better to be a prisoner who is well fed and on good terms with the guards than an animal gnawing at its own leg in a snare.
 
----
 
 ## The Guilds
 
@@ -30,59 +29,58 @@ Thus the guilds buy goodwill from the people and the palace, the state gets its 
 
 Every guild has a charter. It lets the guild police itself, spells out what it owes in quality, training and tax, sets out how disputes are handled and gives it seats on the imperial advisory councils. Guild courts settle internal quarrels. Imperial judges step in only when matters turn violent, and even then they generally side with the guild, which spares the Empire a great many lawyers.
 
-In Your Grace's lands, a guild mark means a better price and a better guarantee. In Singhapura it means considerably more. Anyone selling goods without a mark may be brought before a Justice of the Peace, and the seller (and often the maker) arrested and tried in the court of the guild concerned. Any man may make a thing. No man may profit from it without a licence. A man with a good design and no money to build it will usually take it to a guild member in good standing, who manufactures it under his own mark and pays the inventor a lump sum or a share.
+In Your Grace's lands, a guild mark means a better price and a better guarantee. In Singhapura it means considerably more. Anyone selling goods without a mark may be brought before a Justice of the Peace, and the seller (and often the maker) arrested and tried in the court of the guild concerned.
+
+Thus, any man may make a thing, and share with his neighbours; but no man may legally profit from the Empire at large without a licence. A man with a good design and no money to build it will either produce small quantities or take it to a guild member in good standing, who manufactures it under his own mark and pays the inventor a lump sum or a share.
 
 Most guilds follow the same ladder: five years as an apprentice, some years as a journeyman charging a day-rate while travelling and learning, and then a masterwork submitted for judgment. There are examinations at every step, supposedly so that talent alone may carry a man through. In practice hardly any guild permits anyone to skip the years of schooling, for fear of skilled Lusians and cheap Tangowanese taking the work.
 
 Together the guilds maintain the Chamber of Craft and Commerce, which meets four times a year to agree what they want from the imperial authorities. It is also where the guild masters decide whom to bribe, and by how much. They are very good at both.
 
----
+
 
 ## The Foundational Guilds
 
-The Miners' Guild holds the monopoly on everything dug out of the ground. It is the oldest guild, and it began in disputes over how miners were treated. Its early history involves a criminal organization whose name, written down, reads much like the number 689; in the Empire's shakier days, such organizations were among the few things the nobility feared.
+1) The Miners' Guild holds the monopoly on everything dug out of the ground. It is the oldest guild, and it began in disputes over how miners were treated. Its early history involves a criminal organization whose name, written down, reads much like the number 689; in the Empire's shakier days, such organizations were among the few things the nobility feared.
 
 The guild is now in decline, because the mines have moved outward toward the borders, into Wattle and Daub. Your Grace sits at the receiving end of that movement, and I return to this below.
 
-The Woodmen's Guild began the other way about. The state needed someone to manage the imperial forests, so it gathered up scattered gardeners and hunters and made them rangers, planters and woodsmen under its own patronage. Illegal logging soon gave them more to do, and now every forest in Singhapura is theirs. The Military Orders commonly recruit their trackers from the Woodmen.
+2) The Woodmen's Guild began the other way about. The state needed someone to manage the imperial forests, so it gathered up scattered gardeners and hunters and made them rangers, planters and woodsmen under its own patronage. Illegal logging soon gave them more to do, and now every forest in Singhapura is theirs. The Military Orders commonly recruit their trackers from the Woodmen.
 
-The Guild of Stonemasons and Carpenters builds whatever is meant to last, from bridges and city walls down to a good chair. They work with Taprobane on magical reinforcement for imperial projects. They also share people with the Boiling Rock chapter of the Military Orders, whose engineers and magicians pass through the guild while serving and often join it upon retirement. The man who builds a siege ramp at twenty-five is quite likely to be building a temple at fifty.
+3) The Guild of Stonemasons and Carpenters builds whatever is meant to last, from bridges and city walls down to a good chair. They work with Taprobane on magical reinforcement for imperial projects. They also share people with the Boiling Rock chapter of the Military Orders, whose engineers and magicians pass through the guild while serving and often join it upon retirement. The man who builds a siege ramp at twenty-five is quite likely to be building a temple at fifty.
 
-The Farmers' and Butchers' Guild is the last of the old four, and it now manages the whole food supply. They advise on irrigation, grow the crops, raise and slaughter the cattle, and handle storage, grain reserves, markets and haulage. Membership is hereditary and goes with the land.
+4) The Farmers' and Butchers' Guild is the last of the old four, and it now manages the whole food supply. They advise on irrigation, grow the crops, raise and slaughter the cattle, and handle storage, grain reserves, markets and haulage. Land ownership, however, is hereditary, and thus the movers and shakers of the Guild are almost always those who own the fields.
 
-They are a landed aristocracy in all but name. The name is kept because it simplifies the taxes and lets everyone pretend the arrangement is regulated rather than inherited. Your Grace should not pretend along with them.
-
----
 
 ## The Artisan Guilds
 
-The Metalsmiths' Guild takes whatever the Miners extract and makes it into everything from ploughshares to swords. It began as a company of armourers grown too old for the Military Orders. Its inner circle, the Weaponsmiths, are the finest of them, and they work directly with the Orders on everything from plain blades to enchanted arms. They have far more say than their numbers suggest.
+1) The Metalsmiths' Guild takes whatever the Miners extract and makes it into everything from ploughshares to swords. It began as a company of armourers grown too old for the Military Orders. Its inner circle, the Weaponsmiths, are the finest of them, and they work directly with the Orders on everything from plain blades to enchanted arms. They have far more say than their numbers suggest.
 
-The Jewelers and Artificers' Guild attends to gold, silver and fine ornament; smiths for people with more money than sense, as the saying goes. More usefully, it is where inventors end up when their work fits no other guild, so most new devices enter the guild system through it. Its best customers are the other guilds, who pay a great deal for its methods.
+2) The Jewelers and Artificers' Guild attends to gold, silver and fine ornament; smiths for people with more money than sense, as the saying goes. More usefully, it is where inventors end up when their work fits no other guild, so most new devices enter the guild system through it. Its best customers are the other guilds, who pay a great deal for its methods.
 
-The Guild of Weavers, Dyers, and Tailors handles anything made of thread, from a farmer's underclothes to a priest's ceremonial robes. Merchants who think this a small trade have never watched what a jump in the price of wool or batik does to a city.
+3) The Guild of Weavers, Dyers, and Tailors handles anything made of thread, from a farmer's underclothes to a priest's ceremonial robes. Merchants who think this a small trade have never watched what a jump in the price of wool or batik does to a city.
 
-The Tanners and Leatherworkers' Guild deals in hides and leather. It is necessary work and it is foul, which is why the law keeps their yards outside the city walls. I have little else to say about them.
+4) The Tanners and Leatherworkers' Guild deals in hides and leather. It is necessary work and it is foul, which is why the law keeps their yards outside the city walls. I have little else to say about them.
 
-The Bakers' Guild is legally separate from the Farmers', in the same way the Metalsmiths are separate from the Miners. They make bread, cake and sweets. During the Age of Sponsored Heroes they hired Sir Galahitiya the Crisp, which is the first recorded case of a guild paying for a hero. Several nobles known for their entertainments are said to receive regular wagonloads of complimentary pastry.
+5) The Bakers' Guild is legally separate from the Farmers', in the same way the Metalsmiths are separate from the Miners. They make bread, cake and sweets. During the Age of Sponsored Heroes they hired Sir Galahitiya the Crisp, which is the first recorded case of a guild paying for a hero. Several nobles known for their entertainments are said to receive regular wagonloads of complimentary pastry.
 
-The Distillers' Company ferments fruit and grain and sells the result as wine, beer and arrack. They own a good many of Singhapura's orchards and do not get along with the Farmers'. Of late they have been buying up large tracts of land in the Empire's outlying kingdoms in which to grow what they need.
+6) The Distillers' Company ferments fruit and grain and sells the result as wine, beer and arrack. They own a good many of Singhapura's orchards and do not get along with the Farmers'. Of late they have been buying up large tracts of land in the Empire's outlying kingdoms in which to grow what they need.
 
-The Glassblowers' Guild is the youngest of the artisan guilds, and nearly all its members are magicians. They make everything from bottles and windows to the lenses and vessels on which Lusian alchemy and serious magical work depend, and they guard their techniques closely. The University and the Haugris Church both need them badly. For such a quiet body, they have two very powerful friends.
+9) The Glassblowers' Guild is the youngest of the artisan guilds, and nearly all its members are magicians. They make everything from bottles and windows to the lenses and vessels on which Lusian alchemy and serious magical work depend, and they guard their techniques closely. The University and the Haugris Church both need them badly. For such a quiet body, they have two very powerful friends.
 
----
 
 ## The Service Guilds
 
-The Merchants' Guild began life as the Loghaulers, Supply, and Trailmakers' Guild, became the Merchants and Bankers' Guild, and is now the richest and most powerful body in Singhapura after the state itself. It oversees every major trade route on land and sea, and it manages much of the Empire's banking together with the Treasury and Taprobane. It has done so since the Restoration, when it took its lessons from the Lusian banks and began to mint the Owl.
+1) The Merchants' Guild began life as the Loghaulers, Supply, and Trailmakers' Guild, became the Merchants and Bankers' Guild, and is now the richest and most powerful body in Singhapura after the state itself. It oversees every major trade route on land and sea, and it manages much of the Empire's banking together with the Treasury and Taprobane. It has done so since the Restoration, when it took its lessons from the Lusian banks and began to mint the Owl.
 
 Anyone who moves goods or money over any distance has had to stay in its good graces. Merchants are rarely nobles, yet nearly every noble family keeps part of its fortune in the Guild's coffers, and very few of them ignore a Merchant's advice in private. I expect Wattle and Daub are no different.
 
-The Military Orders number thirteen Chapters. It is not by accident that the Merchants are called the Fourteenth.
+The Military Orders number thirteen Chapters; it is not by accident that the Merchants are called the Fourteenth.
 
-The Surgeons' Guild keeps hospitals in every large city and goes onto battlefields under a flag of truce. Officially it belongs to no church or university. In fact its members overlap heavily with the healers of the Haugris Church, the Temple of Eighteen, the Iron Pagoda and Taprobane, and with healers inside the Empire and out of it, so the Empire often sends Surgeons on diplomatic errands. Whoever wishes the whole Empire to turn and look at him need only threaten the Surgeons.
+2) The Surgeons' Guild keeps hospitals in every large city and goes onto battlefields under a flag of truce. 
 
----
+Officially it belongs to no church or university. In fact its members overlap heavily with the healers of the Haugris Church, the Temple of Eighteen, the Iron Pagoda and Taprobane, and with healers inside the Empire and out of it, so the Empire often sends Surgeons on diplomatic errands. Whoever wishes the whole Empire to turn and look at him need only threaten the Surgeons.
+
 
 ## The Economy Itself
 
@@ -108,21 +106,19 @@ Last comes knowledge. Taprobane and the Lesser Theoretical University of Daub ar
 
 Consider all of these together, Your Grace, and you will see that in every one of these relationships Singhapura is the party that could better afford to walk away. The North needs Singhapura's grain more than Singhapura needs any single mine. Tangowan's gems are handsome, and there are other gems. A Rosantic press may be taken apart and copied, and then Singhapura may print its own books.
 
----
 
 ## Of What This Means for Daub
 
 Three matters follow from all this, and I set them out in order of urgency.
 
-First, the mines and the steel. The Miners' Guild is in decline because the ore has moved north, and the Empire is now pushing north after it. Daub sits upon iron, tin, lead and coal. More than that, the Staanbyrig steel that the Empire cannot make for itself comes by sea from Roke's Landing to Wattle, and from Wattle overland through Daub and the Hooniyang Pass to Giridhora. There is no other road for it.
+First, the mines and the steel. The Miners' Guild is in decline because the ore has moved north and the Empire is now pushing north after it. Daub sits upon iron, tin, lead and coal. More than that, the Staanbyrig steel that the Empire cannot make for itself comes by sea from Roke's Landing to Wattle, and from Wattle overland through Daub and the Hooniyang Pass to Giridhora. There is no other road for it.
 
-The Empire's need for that steel, and for the ore beneath Daub, is the strongest card in Your Grace's hand. I would advise Your Grace to learn precisely what passes through Daub, in what quantity, and what the Empire pays for it elsewhere. A card is of no use to a player who does not know its value.
+The Empire's need for these materials is the strongest cards in Your Grace's hand. I would advise Your Grace to learn precisely what passes through Daub, in what quantity, and what the Empire pays for it elsewhere.
 
-Second, the Merchants. Daub's own Guild is built upon the Singhapura model, and its banking runs through Singhapura hands. This cannot be undone without ruining the city's trade, and I do not advise attempting it. I urge Your Grace instead to cultivate the network rather than compete with it. A word to the right Merchant travels faster, and more quietly, than any official courier, and the Guild has more to lose from Daub's collapse than from Your Grace's prosperity.
+Second, the Merchants. Daub's own Guild is built upon the Singhapura model; its banking runs through Singhapura hands. This cannot be undone without ruining the city's trade, and I do not advise attempting it. I urge Your Grace instead to cultivate the network rather than compete with it; the Guild has more to lose from Daub's collapse than from Your Grace's prosperity.
 
-Third, the coin. Daub trades in Owls, and will continue to. Your Grace must therefore understand that every debasement, every shortage and every rumour concerning the Owl is decided in Singhapura and felt in Daub. Keep a man in Basnapura who reads the exchange rates, and keep grain in reserve. Tangowan, as I write elsewhere, sold its farms for cheap rice and then discovered who set the price of rice.
+Third, the coin. Daub trades in Owls, and will continue to. Your Grace must therefore understand that every debasement, every shortage and every rumour concerning the Owl is decided in Singhapura. Keep a man in the Empire who reads the exchange rates, and keep grain and materials in reserve. 
 
----
 
 ## Further Reading
 

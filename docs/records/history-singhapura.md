@@ -100,7 +100,9 @@ The puzzle he posed was whether there existed a unified theory and systematic ap
 
 ## The Second Ebbing
 
-Years 462 to 480. Kudakaali II, initially a promising ruler, sets about undoing as much of her predecessors' work as she can. Perhaps she was burdened with too great a name. She resurrects the patronage of the Temple of Eighteen, to which the Haugris Church reacts with great ire. In an attempt to remove herself from their reach, she moves the royal court to Ruhunapura and tries to move the Taprobane Imperial University as well, which refuses. Frustrated, she removes herself to the new city Himakatupura, where she sets in motion events whose consequences will alter the geography of the known world.
+Years 462 to 480. Kudakaali II, initially a promising ruler, sets about undoing as much of her predecessors' work as she can. Perhaps she was burdened with too great a name. She resurrects the patronage of the Temple of Eighteen, to which the Haugris Church reacts with great ire. 
+
+In an attempt to remove herself from their reach, she moves the royal court to Ruhunapura and tries to move the Taprobane Imperial University as well, which refuses. Frustrated, she removes herself to the new city Himakatupura, where she sets in motion events whose consequences will alter the geography of the known world.
 
 The period as a whole is called the Second Ebbing. Several legions disappear without adequate explanation. In Udanuwara, the practice of mahagewal revives - independent walled communities answering only to themselves or the Church. Various Rosantic and Lusian armed orders, coming in through the West, flourish in proportion to the breakdown of central authority - the Paladins, the White Lotus, the Crimson Typhoon; they even influence local lords, who fashion themselves into such organizations as the Lions of the South and the Redistributionists.
 
@@ -109,15 +111,23 @@ The period as a whole is called the Second Ebbing. Several legions disappear wit
 
 Years 480 to 500. These events are the heart of the *Himakatu Chronicle*.
 
-Kudakaali II, after years of one terrible decision after another, believes herself beset by enemies and ill-wishers on all sides. She commissions a torture facility for her enemies and engages the mad architect Girika for its creation. Girika creates a design of such ambition and vileness that it is called the Hell Garden; even the blueprints, a copy of which exists today in the Taprobane museum, are vile things, inspiring fear and loathing with the drawings and details. Girika commissions Pandukha, a magician of equal derangement, to open a gateway to the daemon realm. This is to be the facility's culminating feature.
+Kudakaali II, after years of one terrible decision after another, believes herself beset by enemies and ill-wishers on all sides. She commissions a torture facility for her enemies and engages the mad architect Girika for its creation. 
+
+Girika creates a design of such ambition and vile magic that it is called the Hell Garden; even the blueprints, a copy of which exists today in the Taprobane museum, are considered infohazards of the highest order.
+
+Girika also commissions Pandukha, a magician of equal derangement, to open a gateway to the daemon realm using the foul energies released, so that at the end of torture, corpses may be disposed of by tossing them into the portal. This is to be the facility's culminating feature.
 
 A word on this, Your Grace. These incidents happened long before anyone designed the Rituals that now let us knock politely at the door of to the daemon realm. Pandukha and Girika attempted entry by force; torturing hundreds - some say thousands - of innocents to channel the energies of death itself into weakening the barrier between worlds. 
 
-This is the first properly documented contact between Singhapura and the daemon world. Your Grace will no doubt readily imagine what responses one is moved to when blood-soaked strangers attempt to force their way through to your palace. 
+This is the first properly documented contact between Singhapura and the daemon world. Your Grace will no doubt readily imagine what responses one is moved to when blood-soaked strangers attempt to dump corpses in your palace. 
 
-Kudakaali II died in the first days of what followed; the *Himakatu Chronicle* does not say how, and I suspect it knows. Thousands of daemons poured through the tear between worlds. Using magic that none of our systems has managed to describe since, they split the city, stretched the fabric of the world, and produced a desert in which the portal itself - now an abyss sufficient to swallow a city entire - continues to rotate, irradiating everything within hundreds of miles and warping reality across a radius that our best instruments have still not fully measured. This is the Great Northern Waste, Your Grace. This is how it was born. The *Singha Chronicle* counts these events as the Empire's great shame.
+Thousands of daemons poured through the tear between worlds. Using magic that none of our systems has managed to describe since, they split the city, stretched the fabric of the world, and produced a desert in which the portal itself - now an abyss sufficient to swallow a city entire - continues to rotate, irradiating everything within hundreds of miles and warping reality across a radius that our best instruments have still not fully measured. 
 
-Not everyone disgraced themselves. Manavarma and Gajabahu, the two generals whose statues stand at the gates of Udanuwara today, conducted a fighting retreat that preserved the empire, holding back the daemonic forces with nearly a hundred thousand soldiers. It is said, too, that every adherent of the Temple of Eighteen who had flocked to Kudakaali's patronage gave their lives to channel their Litanies, and thus daemonic magic was met with the diefic, and a great battle was fought for thirty-nine days, at the end of which the daemons, having slain nearly all who stood, retreated.
+This is the Great Northern Waste, Your Grace. This is how it was born. The *Singha Chronicle* counts these events as the Empire's great shame. Kudakaali II died in the first days of its creation, torn limb from limb. It is said that Girika, for his sins, was nailed to a tree at the center of the Waste, forced to endure and suffer for all eternity.
+
+Not everyone disgraced themselves. Manavarma and Gajabahu, the two generals whose statues stand at the gates of Udanuwara today, conducted a fighting retreat that preserved the empire, holding back the daemonic forces with nearly a hundred thousand soldiers.
+
+It is said, too, that every adherent of the Temple of Eighteen who had flocked to Kudakaali's patronage gave their lives to channel their Litanies, and thus daemonic magic was met with the diefic, and a great battle was fought for thirty-nine days, at the end of which the daemons, having slain nearly all who stood, retreated.
 
 Naagadattha III, who inherited this situation, devoted his reign to recovery expeditions, the suppression of rebellions born of the resulting chaos, and to the composition of theatrical works cursing, in roughly equal proportion, Himakatupura, the daemon realm, the Waste itself, and the clerk Sangabo, who had the misfortune of delivering the weekly situation reports. Sangabo's offense, so far as can be established, was merely competence: he was the man who was tasked with keeping the Emperor from letting his frustrations turn to excess. Reminding an Emperor now and then that burning one's own towns is bad form is not, in and of itself, a crime.
 
