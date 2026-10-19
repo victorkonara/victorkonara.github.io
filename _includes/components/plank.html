@@ -1,0 +1,32 @@
+{%- comment -%}
+  Include as: {%- include components/plank.html -%}
+  Depends on: page, site.
+  Results in: the wooden top navigation bar ("Village Road" design).
+  Lists every top-level page that has a nav_order and isn't nav_exclude'd,
+  in nav_order. A page can set `short_title` to use a shorter label here.
+  The search box (components/header.html) sits at the right of the bar.
+{%- endcomment -%}
+{%- assign plank_pages = site.html_pages | where_exp: "p", "p.nav_exclude != true and p.parent == nil and p.nav_order" | sort: "nav_order" -%}
+<header class="plank">
+  <div class="plank-inner">
+    <a class="plank-logo" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="plank-nav" aria-label="Main">
+      <ul class="plank-links">
+        {%- for p in plank_pages -%}
+          {%- assign is_here = false -%}
+          {%- if p.url == page.url -%}
+            {%- assign is_here = true -%}
+          {%- elsif p.url != "/" and page.url contains p.url -%}
+            {%- assign is_here = true -%}
+          {%- endif -%}
+          <li><a class="plank-link{% if is_here %} is-here{% endif %}" href="{{ p.url | relative_url }}"{% if is_here %} aria-current="page"{% endif %}>{{ p.short_title | default: p.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+    {%- if site.search_enabled != false -%}
+    <div class="plank-search">
+      {%- include components/header.html -%}
+    </div>
+    {%- endif -%}
+  </div>
+</header>

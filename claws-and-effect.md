@@ -1,5 +1,6 @@
 ---
 title: Claws and Effect
+short_title: Books
 layout: default
 nav_order: 3
 permalink: /claws-and-effect/

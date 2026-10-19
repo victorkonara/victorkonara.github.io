@@ -6,21 +6,20 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
-<body>
+<body class="vr vr-home-page">
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   {% include icons/icons.html %}
-  {% include components/sidebar.html %}
+  {% include components/plank.html %}
   <div class="main" id="top">
-    {% include components/header.html %}
-    <div class="main-content-wrap">
-      <div id="main-content" class="main-content">
-        <main>
-          {{ content }}
-        </main>
-        {% include components/footer.html %}
-      </div>
+    <div id="main-content">
+      <main class="vr-home">
+        {{ content }}
+      </main>
     </div>
+    {% if site.search_enabled != false %}
+      {% include components/search_footer.html %}
+    {% endif %}
   </div>
-
+  {% include components/footer.html %}
 </body>
 </html>

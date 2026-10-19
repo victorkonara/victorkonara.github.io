@@ -1,0 +1,213 @@
+// Realm — the colourful wayfinding layer.
+// Every top-level section of the site is a "region" with its own jewel
+// colour, shown as a gem in the sidebar and as a banner on home-page cards.
+
+// ── Sidebar gems ───────────────────────────────────────────────
+// One jewel per top-level nav entry, in the same order as the cards on
+// the home page (Home, Books, World, Maps, Updates, About).
+$region-colors: $gold, $ruby, $emerald, $sapphire, $tangerine, $amethyst;
+
+.site-nav > .nav-list > .nav-list-item > .nav-list-link {
+  position: relative;
+  padding-left: 2.1rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0.85rem;
+    top: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    transform: translateY(-50%) rotate(45deg);
+    border-radius: 2px;
+    background: var(--gem, #{$gold});
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.35), 0 0 10px var(--gem, #{$gold});
+  }
+}
+
+@for $i from 1 through length($region-colors) {
+  .site-nav > .nav-list > .nav-list-item:nth-child(#{$i}) > .nav-list-link {
+    --gem: #{nth($region-colors, $i)};
+  }
+}
+
+// The page you are on glows gold. Selector is deliberately as specific
+// as the base theme's own `.active` / `:hover` rule so it wins.
+.site-nav .nav-list .nav-list-item .nav-list-link {
+  // The global link underline shrinks backgrounds to 1px, so reset the size
+  background-size: 100% 100%;
+  background-position: 0 0;
+
+  &.active {
+    color: #2a1a5e !important;
+    background-image: linear-gradient(135deg, $gold, lighten($gold, 14%));
+    box-shadow: 0 2px 0 darken($gold, 25%);
+  }
+
+  &:hover:not(.active) {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.04));
+  }
+}
+
+// Sub-pages sit on a thin gold thread, like a path off the main road
+.site-nav .nav-list .nav-list {
+  border-left: 2px solid rgba($gold, 0.45);
+  margin-left: 1.1rem;
+  padding-left: 0.25rem;
+}
+
+.nav-list .nav-list-expander {
+  color: $gold;
+}
+
+// ── Search bar ─────────────────────────────────────────────────
+.main-header {
+  background: rgba(255, 252, 240, 0.9);
+  border-bottom: 3px solid $border-color;
+}
+
+// ── Realm cards (home page quick-nav) ──────────────────────────
+.realm {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.realm-title {
+  font-family: $display-font-family;
+  font-size: clamp(1.4rem, 3.2vw, 2rem) !important;
+  margin: 0 0 0.35rem !important;
+  color: $body-heading-color;
+}
+
+.realm-lede {
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  color: rgba($body-text-color, 0.8);
+}
+
+.realm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.realm-card {
+  --tint: #{$gold};
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 1.4rem 1.3rem;
+  border: 3px solid var(--tint);
+  border-radius: 20px;
+  color: $body-text-color;
+  text-decoration: none;
+  box-shadow: 0 6px 0 color-mix(in srgb, var(--tint) 70%, #000), 0 14px 26px rgba($sidebar-color, 0.14);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  // Declared after the global link rules, which set a background-image underline
+  background: linear-gradient(180deg, color-mix(in srgb, var(--tint) 20%, #fffdf4), #fffdf4 65%);
+
+  &:hover {
+    transform: translateY(-4px);
+    color: $body-text-color;
+    text-shadow: none;
+    box-shadow: 0 10px 0 color-mix(in srgb, var(--tint) 70%, #000), 0 20px 34px rgba($sidebar-color, 0.2);
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 0 color-mix(in srgb, var(--tint) 70%, #000);
+  }
+
+  &:focus-visible {
+    outline: 4px solid $body-heading-color;
+    outline-offset: 3px;
+  }
+
+  &.ruby      { --tint: #{$ruby}; }
+  &.emerald   { --tint: #{$emerald}; }
+  &.sapphire  { --tint: #{$sapphire}; }
+  &.tangerine { --tint: #{$tangerine}; }
+}
+
+.realm-card-icon {
+  display: grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background: var(--tint);
+  color: #fff;
+  box-shadow: 0 3px 0 color-mix(in srgb, var(--tint) 65%, #000);
+
+  svg {
+    width: 1.7rem;
+    height: 1.7rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
+
+.realm-card-name {
+  font-family: $heading-font-family;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: color-mix(in srgb, var(--tint) 55%, #1d1630);
+}
+
+.realm-card-text {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: rgba($body-text-color, 0.88);
+}
+
+.realm-card-go {
+  margin-top: auto;
+  padding-top: 0.4rem;
+  font-family: $pixel-font-family;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--tint) 60%, #1d1630);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .realm-card, .btn-book { transition: none; }
+}
+
+// ── Section tables of contents on docs pages ───────────────────
+.text-delta, .toc-heading { font-family: $pixel-font-family; }
+
+.main-content ul > li::marker { color: $ruby; }
+
+// ── Footer ─────────────────────────────────────────────────────
+.site-footer {
+  border-top: 3px solid $border-color;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+// Menu button on phones: gold on the purple bar, with a comfortable tap target
+.site-button {
+  color: $gold;
+  min-width: 44px;
+  min-height: 44px;
+
+  .icon { fill: currentColor; }
+}
+
+.site-button svg,
+.nav-list-expander svg {
+  fill: $gold;
+  color: $gold;
+}

@@ -1,0 +1,39 @@
+{%- comment -%}
+  Include as: {%- include components/trail.html -%}
+  Depends on: page, site.
+  Results in: the side "trail" shown on pages under /docs/. It lists the
+  sections and pages of The World According to Art, built from the same
+  `parent` front matter the rest of the site already uses. The branch you
+  are standing in is open.
+{%- endcomment -%}
+{%- assign trail_root = site.html_pages | where: "title", "The World According to Art" | first -%}
+{%- assign trail_sections = site.html_pages | where: "parent", trail_root.title | sort: "nav_order" -%}
+<details class="trail" open>
+  <summary class="trail-title">{{ trail_root.short_title | default: trail_root.title }}</summary>
+  <div class="trail-body">
+    <a class="trail-home{% if page.url == trail_root.url %} is-here{% endif %}" href="{{ trail_root.url | relative_url }}">The opening letter</a>
+    {%- for section in trail_sections -%}
+      {%- assign kids = site.html_pages | where: "parent", section.title | sort: "nav_order" -%}
+      {%- assign open_it = false -%}
+      {%- if page.url == section.url or page.parent == section.title -%}
+        {%- assign open_it = true -%}
+      {%- endif -%}
+      <details class="trail-section"{% if open_it %} open{% endif %}>
+        <summary>{{ section.title }}</summary>
+        <ul>
+          <li><a class="{% if page.url == section.url %}is-here{% endif %}" href="{{ section.url | relative_url }}">Overview</a></li>
+          {%- for kid in kids -%}
+            <li><a class="{% if page.url == kid.url %}is-here{% endif %}" href="{{ kid.url | relative_url }}"{% if page.url == kid.url %} aria-current="page"{% endif %}>{{ kid.title }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </details>
+    {%- endfor -%}
+  </div>
+</details>
+<script>
+  // On a phone the trail starts folded so the page text comes first.
+  (function () {
+    var t = document.querySelector('.trail');
+    if (t && window.matchMedia('(max-width: 899px)').matches) { t.removeAttribute('open'); }
+  })();
+</script>

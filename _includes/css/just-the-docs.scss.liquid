@@ -43,6 +43,9 @@ $link-hover-color: {{ site.design.body_link_hover }};
 {% else %}
 $link-hover-color: $link-color;
 {% endif %}
+{% if site.design.border %}
+$border-color: {{ site.design.border }};
+{% endif %}
 {% if site.design.sidebar_background %}
 $sidebar-color: {{ site.design.sidebar_background }};
 {% endif %}

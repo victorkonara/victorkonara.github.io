@@ -3,13 +3,13 @@ title: Updates
 layout: default
 nav_order: 7
 permalink: /updates/
-description: "News and updates from Victor Konara on A Sorcerer's Tail and the Imperial Archive series."
+description: "News and updates from Victor Konara!"
 ---
 
 # Updates
 {: .no_toc }
 
-News on *A Sorcerer's Tail*, the Imperial Archive series, and anything else worth telling readers about.
+News on *A Sorcerer's Tail* and more.
 
 <div class="updates-list">
 {% for post in site.posts %}

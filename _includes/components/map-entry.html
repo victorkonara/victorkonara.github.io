@@ -14,7 +14,7 @@
 {%- assign map_alt = include.alt | default: map_title | default: "Map" -%}
 {%- assign map_caption = include.caption -%}
 <figure class="map-entry">
-  {% if map_title %}<h2 class="map-entry-title">{{ map_title }}</h2>{% endif %}
+  {% if map_title %}<h2 class="map-entry-title" id="{{ map_title | slugify }}">{{ map_title }}</h2>{% endif %}
   <a class="map-entry-link" href="{{ map_image | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-resolution map{% if map_title %} of {{ map_title }}{% endif %} in a new tab">
     <img src="{{ map_image | relative_url }}" alt="{{ map_alt }}" loading="lazy">
   </a>
