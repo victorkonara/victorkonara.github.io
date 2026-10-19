@@ -162,7 +162,7 @@ $plank-jewels: $gold, $ruby, $emerald, $sapphire, $tangerine, $amethyst, $ruby, 
     box-shadow: 6px 6px 0 $vr-line;
     left: auto;
     right: 0;
-    width: min(26rem, 92vw);
+    width: unquote("min(26rem, 92vw)");
     color: $vr-ink;
   }
 }
@@ -374,7 +374,7 @@ blockquote { border-left-color: $sapphire; background: linear-gradient(90deg, rg
 
   .vr-book {
     position: relative;
-    width: min(100%, 17rem);
+    width: unquote("min(100%, 17rem)");
     aspect-ratio: 2 / 3;
     display: grid; place-items: center; text-align: center;
     color: #fff; background: $sapphire;
@@ -443,7 +443,7 @@ blockquote { border-left-color: $sapphire; background: linear-gradient(90deg, rg
   .arrow {
     --c: #{$ruby};
     position: relative; z-index: 1; display: block;
-    width: min(92%, 40rem);
+    width: unquote("min(92%, 40rem)");
     padding: 1rem 4rem 1rem 1.6rem;
     color: #fff;
     background: var(--c);
