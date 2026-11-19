@@ -9,8 +9,7 @@ description: "Claws and Effect, the fantasy series by Victor Konara starring Art
 
 # Claws and Effect
 
-<!-- TODO (Victor): placeholder copy, replace with the real series pitch -->
-A trilogy following Art, a disbarred sorcerer stuck in the body of a cat, and Gary, a paladin with considerably more sword-arm than sense, as they get dragged across the edges of the Singhapuran Empire trying to fix what can't quite be fixed.
+Claws and Effect follows Art, a former world-class sorcerer now stuck in the body of a cat, and Gary the Paladin, a master swordsman with zero street smarts and a heart of gold. Together they hustle bandits, endure exorcisms and outrun iron-fisted landlords. Book One, *A Sorcerer's Tail*, is out in May 2027.
 
 <div class="book-list">
 {% assign series_books = site.books | where: "series", "Claws and Effect" | sort: "date" | reverse %}

@@ -11,20 +11,16 @@ permalink: /
 <div class="sky">
 <div class="sun" aria-hidden="true"></div>
 <i class="cloud c1" aria-hidden="true"></i><i class="cloud c2" aria-hidden="true"></i><i class="cloud c3" aria-hidden="true"></i>
-<div class="wrap hero">
+<div class="wrap hero book-edition">
 <div class="hero-text">
 <span class="pen">Victor Konara presents</span>
 <h1 class="hero-title">{{ book.title }}</h1>
 <p class="hero-sub">{{ book.subtitle }}</p>
 <div class="pitch">{{ book.blurb | markdownify | strip_newlines }}</div>
-{%- include components/book-buy-links.html links=book.links class="home-buy-links" -%}
+{%- include components/book-edition.html book=book prefix="hero" hero=true buy_class="home-buy-links" part="buy" -%}
 </div>
 <div class="hero-book">
-{%- if book.cover and book.cover != "" -%}
-<div class="vr-book vr-book-art"><span class="tag">Book 1</span><img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}"></div>
-{%- else -%}
-<div class="vr-book" role="img" aria-label="Cover forthcoming for {{ book.title }}"><span class="tag">Book 1</span><div><div class="vr-cat"></div><b>{{ book.title }}</b><small>VICTOR KONARA</small></div></div>
-{%- endif -%}
+{%- include components/book-edition.html book=book prefix="hero" hero=true buy_class="" part="covers" -%}
 </div>
 </div>
 </div>

@@ -881,3 +881,70 @@ $callout-types: note, important, highlight, warning, new;
 // Import shelf styles
 @import "shelf";
 @import "village";
+
+// ── UK / US edition switch ─────────────────────────────────────
+// Hidden radios drive the tabs (see components/book-edition.html), so no JS is needed.
+// The root (.book-edition) can wrap both covers and buy links, so :has() is used to reach them.
+.book-edition { position: relative; }
+
+.ed-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ed-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 0.9rem;
+}
+
+.ed-tab {
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  font-family: $pixel-font-family;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: inherit;
+  border: 3px solid $border-color;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.book-edition:has(.ed-input[id$="-uk"]:checked) .ed-tab-uk,
+.book-edition:has(.ed-input[id$="-us"]:checked) .ed-tab-us {
+  background: #2f1d1d;
+  color: #fff3d6;
+}
+
+.ed-input:focus-visible ~ .ed-tabs .ed-tab { outline: 3px solid #ffcf3f; outline-offset: 2px; }
+
+// Hide the non-selected edition. !important beats the .vr-book-art display rule.
+.ed-us,
+.ed-buy.ed-us { display: none !important; }
+
+.book-edition:has(.ed-input[id$="-us"]:checked) .ed-uk,
+.book-edition:has(.ed-input[id$="-us"]:checked) .ed-buy.ed-uk { display: none !important; }
+
+.book-edition:has(.ed-input[id$="-us"]:checked) .ed-us { display: block !important; }
+
+.book-edition:has(.ed-input[id$="-us"]:checked) .ed-buy.ed-us { display: flex !important; }
+
+.book-entry-cover .book-buy-links { margin-top: 1rem; flex-direction: column; }
+
+.book-endorsements {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+
+  li { margin: 0 0 1.1rem; }
+
+  blockquote { margin: 0 0 0.3rem; font-style: italic; }
+
+  cite { font-size: 0.9rem; font-style: normal; opacity: 0.85; }
+}

@@ -1,0 +1,36 @@
+{%- comment -%}
+  Include as: {% include components/book-edition.html book=book prefix="card" hero=false buy_class="" part="all" %}
+  Renders the UK / US edition switch for one book.
+  part: "all" (default), "covers" (tabs and covers only) or "buy" (buy links only), so a caller
+  can place the covers and the buttons in different columns.
+  Pure CSS: two hidden radio inputs drive the tabs, so it works without JavaScript.
+  The nearest ancestor with class "book-edition" holds the state; prefix must be unique on the page.
+  Output must contain no blank lines (index.md's raw HTML block depends on it).
+{%- endcomment -%}
+{%- assign book = include.book -%}
+{%- assign p = include.prefix -%}
+{%- assign hero = include.hero -%}
+{%- assign part = include.part | default: "all" -%}
+{%- assign eds = "uk,us" | split: "," -%}
+{%- if part != "buy" -%}
+<input type="radio" class="ed-input" id="ed-{{ p }}-uk" name="ed-{{ p }}" checked>
+<input type="radio" class="ed-input" id="ed-{{ p }}-us" name="ed-{{ p }}">
+<div class="ed-tabs" role="group" aria-label="Choose edition">
+<label class="ed-tab ed-tab-uk" for="ed-{{ p }}-uk">UK cover</label>
+<label class="ed-tab ed-tab-us" for="ed-{{ p }}-us">US cover</label>
+</div>
+{%- for ed in eds -%}
+{%- if hero -%}
+<div class="vr-book vr-book-art ed-cover ed-{{ ed }}"><span class="tag">Book 1</span><img src="{{ book.covers[ed] | relative_url }}" alt="{{ ed | upcase }} cover of {{ book.title }}"></div>
+{%- else -%}
+<div class="ed-cover ed-{{ ed }}"><img src="{{ book.covers[ed] | relative_url }}" alt="{{ ed | upcase }} cover of {{ book.title }}" loading="lazy"></div>
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- if part != "covers" -%}
+{%- for ed in eds -%}
+{%- assign cls = "ed-buy ed-" | append: ed | append: " " | append: include.buy_class -%}
+{%- assign ed_links = book.links[ed] -%}
+{%- include components/book-buy-links.html links=ed_links class=cls -%}
+{%- endfor -%}
+{%- endif -%}
