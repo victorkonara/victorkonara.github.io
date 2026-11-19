@@ -59,7 +59,7 @@ Tangowan worship centres upon two classes of being. The Yami are powerful and un
 
 Most Tangowan people worship as many Yami as their circumstances require, without the exclusive affiliations that mark Temple or Church devotion. Indeed, many have adopted Raavan as one more Yami to appease, and go about their lives unbothered.
 
-Some scholars propose that this is a hybrid of deity worship and something like the Rosantic Ascended. The scholarship matters less than the fact of this one resilience, which I attribute to culture rather than to any institution. It is not resistance, exactly. It is more in the manner of the old adage: the bamboo bends with the wind, but does not break. The Empire has so far had the wisdom not to attempt a direct reorganization of it.
+Some scholars propose that this is a hybrid of deity worship and something like the Rosantic Ascended. The scholarship, frankly, is still incomplete and ongoing. But observing the contiuance of this worship brings to mind the bamboo that bends with the wind, but does not break. Faith can survive when armies cannot.
 
 I note that it has become fashionable among Singhapura's nobility to holiday in Tangowan for purposes of spiritual communion. The Yami, from what the accounts suggest, do not respond well to aristocratic tourism. Nevertheless the income appears to be raising the living standards of certain groups upon the coast, in the same manner that certain villages of Daub benefit from tourists. I leave the matter there.
 

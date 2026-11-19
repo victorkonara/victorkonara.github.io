@@ -50,11 +50,11 @@ The Light is the god everyone can see at present, and the one we understand leas
 
 Your Grace knows the recent events, so I will not repeat them. I will add one thing. A Paladin so blessed is compelled to take on quests for some idea of the good, and the Light holds him to it. A Paladin without cunning may find himself bound to an impossible quest, and sent to his death by it.
 
-## Of What This Means for Daub
+## Of Relevance Daub
 
-Daub holds the Church, the Temple, the Paladins and every household shrine described above within a single set of walls. On most of them I can advise. Keep the Church's goodwill and the Temple's confidence at once, as Singhapura has done for six centuries by favouring neither in public. When a man in Daub behaves inexplicably, ask whether he has made a *baara* before you ask who has paid him.
+Within its periphery, Daub hosts the Church, the Temple, the Paladins and almost every household shrine described above. On most of them I can advise. Keep the Church's goodwill and the Temple's confidence at once, as Singhapura has done for six centuries, by favouring neither in public. When a man in Daub behaves inexplicably, ask whether he has made a *baara* before you ask who has paid him.
 
-On the Light I cannot advise, and I would distrust anyone who claims he can. Your Grace has raised the Paladins as a counterweight to the Church, and it is a sound choice; but nobody, not the Church, not Taprobane, not the Paladins themselves, knows what the Light wants, or why it chose them, or what it will do when a Paladin's quest and his Duchess's orders point in different directions. I have spent a good many pages in this treatise telling Your Grace how things work. This is the one power in Daub about which I must simply say that I do not know.
+On the Light I cannot advise, and I would distrust anyone who claims he can. Your Grace has raised the Paladins as a counterweight to the Church, and it is a sound choice; but nobody, not the Church, not Taprobane, not the Paladins themselves, knows what the Light wants, or why it chose them, or what it will do when a Paladin's quest and his orders point in different directions. I have spent a good many pages in this treatise telling Your Grace how things work. This is the one power in Daub about which I must simply say that I do not know.
 
 ### Further Reading
 

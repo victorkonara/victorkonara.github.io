@@ -18,19 +18,15 @@ Your Grace has a copy my previous work, *The Basics of Magic and Practical Appli
 
 This book is its successor in spirit. Your Grace asked me to tell you about the places and powers that concern your operations; thus this work is broader, and I've tried to cover everything from the provinces to the politics in broad detail.
 
-But I want Your Grace to actually read my words, not just get some lackey to regurgitate them for you. So I thought about writing instead.
+But I would like Your Grace to actually read my words, not just get some lackey to regurgitate them for you. 
 
-If I was still in Singhapura I would have to open with the fanciest words I know and delight you with layers and layers of hidden poetry and tricks and messages under the surface. 
+If I was still in Singhapura I would have to open with the fanciest words I know and delight you with layers and layers of hidden poetry and tricks and messages under the surface.  Like Kavyasekara writing *to plunder, butcher, steal, these things they misname empire; and where they make a desert, they call it peace*; the text is supposedly about the barbarians at the gates, but it's actually an indictment of Singhapura's own history and makes the barbarians sound like reasonable people.  
 
-You know, like Kavyasekara writing *to plunder, butcher, steal, these things they misname empire; and where they make a desert, they call it peace*; the text is supposedly about the barbarians at the gates, but it's actually an indictment of Singhapura's own history and makes the barbarians sound like reasonable people.  
-
-Then I read this Lusian fellow who wrote much simpler: 
+But as of late I have been reading this Lusian fellow who wrote much simpler: 
 
 *. . .ideas dressed in fine sentences are often ideas that cannot stand in plain clothes. It it is my desire that this work should either pass wholly unhonoured, or that the truth of its matter and the importance of its subject should alone recommend it.*
 
-I tried writing in that style, but then I read this strange book of meditation exercises from the Obsidian Empire that just opened with *Let go, or be dragged*. 
-
-So let me write as me. This book is what I know about our world. 
+So let me write simply. This book is what I know about our world. 
 
 I won't say that it's perfect. The work is small, and the subject is vast. In searching for usefulness, I've whittled away a great number of details - because the many millions of small details always change, even when the larger movements of the world go relatively undisturbed. 
 
@@ -42,9 +38,9 @@ You who stand at a considerable height sees certain things. I have spent my life
 
 My hope is that what I have seen from below will prove of some use to one who commands from above. 
 
-Read this work carefully, Maud. In it is the full measure of my hopes for your success. You have talent and fortune on your side. You are not the kind of person who lets go; you are the kind of person who drags. And most of all, many of us are now stuck with you, for better or worse. 
+Read this work carefully, Maud. In it is the full measure of my hopes for your success. You have talent and fortune on your side. And most of all, many of us are now with you, for better or worse. 
 
-I've have enough of the worse, and I hope this helps make things better.
+I have had enough of the worse, and I hope this helps make things better.
 
 
 

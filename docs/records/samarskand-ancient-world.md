@@ -58,12 +58,9 @@ The second is law. Until Samarskand, most places functioned according to the wil
 
 The *Book of Lost Kingdoms* is relevant here too. Raavan as human magician-king - who built a library, systematized knowledge, and spent his final years in the service of his people - looks very much like the father of both. He could not save his friend, so he saved everything he knew; he could not live forever, so he made certain his work would. Singhapura does not tell that story about itself. I think its schools and its courts would recognize it anyway.
 
-The Samarskand system of writing remains in use for administration, poetry, and magic; the Samarskand system of laws, much revised and made complex over the years, governs all affairs the Empire touches; the Samarskand inheritance of Raavan's power is formally accepted each time the Haugris Church bells toll for the Singha Adiraj. That is how Singhapura claims the right to rule, and it repeats the claim every time the bells ring.
+The Samarskand system of writing remains in use for administration, poetry, and magic; the Samarskand system of laws, much revised and made complex over the years, governs all affairs the Empire touches; the Samarskand inheritance of Raavan's power is formally accepted each time the Haugris Church bells toll for the Singha Adiraj. That is how Singhapura claims the right to rule.
 
-## Of Samarskand's End
+## Of the End of Samarskand
 
-Samarskand did not last. It stood in the shadow of a mountain - Samar's Kand, Samar's Mountain - of which no trace remains today. Accounts from Lusia and Tangowan record a great flood that shattered the mountain, destroyed the city, and swept everything away, and with it the allied state of Taprobane. The mouth of the Diamond River is most likely the exact site; centuries of excavation have recovered what could only have been the ruins of that great empire.
-
-The damage was so great that the rebuilding fell to Samarskand's outer provinces, and that project drained them over generations until the world entered a dark age of infighting and petty warlords. The grass grew over their graves, as we say. Much of what survives can be found at the Taprobane Magisterium museum and the Hall of Ancient Arts.
-
-Go and see it if Your Grace is ever in the city. Most of what the Empire is started there.
+Samarskand did not last. Some say it stood in the shadow of a mountain - Samar's Kand, Samar's Mountain - of which no trace remains today. Others say that it stood on a plain. Regardless, accounts from Lusia and Tangowan record a great flood that shattered the mountain, destroyed the city, and swept everything away, and with it the allied state of Taprobane. The mouth of the Diamond River is most likely the exact site; centuries of excavation have recovered what could only have been the ruins of that great empire. At best I would hazard that the rebuilding fell to Samarskand's outer provinces, and that project drained them over generations until the world entered a dark age of infighting and petty warlords. The grass grew over their graves, as we say. 
+Much of what survives can be found at the Taprobane Magisterium museum and the Hall of Ancient Arts. Go and see it if Your Grace is ever in the city. Most of what the Empire is started there.

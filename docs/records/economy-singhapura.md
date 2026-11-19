@@ -25,7 +25,7 @@ More than one scholar has called the whole system a confederation of cartels tha
 
 Some of the resulting inequality is softened by the *rajakaariya*, the royal duty. Able-bodied adults may volunteer for three months of the year on state projects, in the fallow months between the end of the Maha harvest and the start of the Yala season. Their families receive a yearly stipend of rice and wheat, paid for out of guild taxes. The guilds that paid the most are entitled to put their stamps on the sacks, just beneath the Adhiraj's seal.
 
-Thus the guilds buy goodwill from the people and the palace, the state gets its labour and feeds the poor, and the Adhiraj gains one more string to pull when a guild steps out of line. The Empire has always been fond of arrangements that do three things at once.
+Thus the guilds buy goodwill from the people and the palace, the state gets its labour and feeds the poor, the Adhiraj gains one more string to pull, and society at large gets systems that most believe they can climb with sufficient effort and talent.
 
 Every guild has a charter. It lets the guild police itself, spells out what it owes in quality, training and tax, sets out how disputes are handled and gives it seats on the imperial advisory councils. Guild courts settle internal quarrels. Imperial judges step in only when matters turn violent, and even then they generally side with the guild, which spares the Empire a great many lawyers.
 
@@ -107,7 +107,7 @@ Last comes knowledge. Taprobane and the Lesser Theoretical University of Daub ar
 Consider all of these together, Your Grace, and you will see that in every one of these relationships Singhapura is the party that could better afford to walk away. The North needs Singhapura's grain more than Singhapura needs any single mine. Tangowan's gems are handsome, and there are other gems. A Rosantic press may be taken apart and copied, and then Singhapura may print its own books.
 
 
-## Of What This Means for Daub
+## Of Direct Relevance to Daub
 
 Three matters follow from all this, and I set them out in order of urgency.
 

@@ -75,9 +75,9 @@ The second kind is the alchemist, much as in the Rosantic League. In Lusia, howe
 
 In Singhapura we say that ability rises from any mud, like the lotus. I have often wondered how much higher it would rise if the pond helped rather than hindered.
 
-## Of What This Means for Daub
+## Of The Intertwining of Lusia, Sinhapura and the Governance of Daub
 
-Lusia and Singhapura are deeply intertwined, through finance and through the Temple, and so is Daub. These threads cannot be cleanly cut. The question for Your Grace is how to keep the Lusian presence in Daub's commercial life a resource and not a liability, and I offer three answers in order.
+Lusia and Singhapura are deeply intertwined, through finance and through the Temple, and so is Daub. These threads cannot be cleanly cut. The question for Your Grace is how to keep the Lusian presence in Daub's commercial life a resource and not a liability. I offer three answers in order.
 
 First, I would advise Your Grace to operate on the assumption that unexplained money, in any political context, has some Lusian component until demonstrated otherwise. Learn which of Daub's houses and merchants hold Lusian paper, and from which city.
 

@@ -93,9 +93,9 @@ On the larger question of how the full Rosantic force would fare against Singhap
 
 I close with an observation about the court masque. The Rosantics practise a highly allusive form of theatre that conveys political meaning through allegory. A performance may unfold its meaning over months, and full understanding is difficult without intimate familiarity with Rosantic high culture. There is a Singhapura novel depicting one such masque that carried a different meaning for each of the nobles who saw it, goading three to anger and one to outright war, exactly as its commissioner intended; the meanings, and the motives behind them, were fully deciphered only upon the participants' deathbeds. Rosantic diplomats have been known to cite this work in actual correspondence. Either Singhapura's novelists are very good, or Rosantic diplomacy is very strange.
 
-## Of What This Means for Daub
+## Of Utility for Daub
 
-The League offers Your Grace two things the Empire cannot easily replace, and brings two dangers with them. I set them out in that order.
+The League offers Your Grace two things the Empire cannot easily replace. I set them out in this order:
 
 1) Soldiers. If Your Grace requires additional military capacity, Singhapura is not the only source, and the Free Companies allow a degree of independent action. I would advise Your Grace to hire them only for defined tasks with defined ends, since they come bearing their own faiths and quarrels and are not easily dissuaded from either.
 
@@ -113,9 +113,9 @@ Halverson's *Trades and Their Shadows* treats the guild secrets and their commer
 
 Mountefort's *Flower of Battle* is a treatise on the provisioning and conduct of armies. Mountefort had to persuade everyone from commander to sergeant, so he wrote for a wide audience, and the result is an easily digested list of commonsense situations that apply to a great variety of armies. Its name and its central thesis both come from his conviction that disease and bad supplies kill far more soldiers than the enemy does.
 
-*The Canonization of Irmgard* is a legal drama, fictionally framed but closely based upon a disputed canonization of some three decades ago. A washerwoman's reported miracles became the occasion for a proxy war between three noble houses, which drew in the Convocations, which in turn drew in the Diet. The author disguised the names with less effort than she perhaps intended. It shows how a dispute, however minor, may send ripples far beyond the control of any participant.
+*The Canonization of Irmgard* is a legal drama, fictionally framed but closely based upon a disputed canonization of some three decades ago. A washerwoman's reported miracles became the occasion for a proxy war between three noble houses, which drew in the Convocations, which in turn drew in the Diet. The author disguised the names with less effort than she perhaps intended, and scholars have made reasonable deductions as to the historical figures depicted herein.
 
-*The Carnival Concordat* is, strictly speaking, a legal document, and the original is held in the Diet archive at Valdermach. It is a body of cases in which Carnival agreements, having superseded other oaths, led to League-wide affairs, and the commentary upon it now runs to several volumes. Read it before relying upon a Rosantic oath.
+*The Carnival Concordat* is, strictly speaking, a legal document; the original is held in the Diet archive at Valdermach. It is a body of cases in which Carnival agreements, having superseded other oaths, led to League-wide affairs, and the commentary upon it now runs to several volumes. Read it before relying upon a Rosantic oath.
 
 *Seven Seasons at Orvaine* is anonymous, and has been attributed variously to a disgraced noble and to several faculty members. It covers seven years of court masques at Orvaine, explaining each in retrospect, with the full context of what each faction understood itself to be watching. Some editions claim it was composed as a reply to *The Lion Emperor's Courtesan*, to explain the tropes and mechanics of the masque, perhaps in some discomfort that the leading account of the form had been written by outsiders.
 

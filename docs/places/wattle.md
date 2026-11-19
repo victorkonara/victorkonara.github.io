@@ -104,11 +104,11 @@ The Great Northern Romance is a whole genre in Singhapura. Your Grace would find
 
 As long as Singhapura believes in its romantic North, that belief does some of the work of walls and armies. Writers and poets make a poor living, so they cost far less than soldiers and arrows; and yet the ballads of Robert Holdbrook, Bloody Ygrain and the rest travel further, and are sung loudest by the very people who could wipe Wattle off the map. It is also very hard to attack a story without looking ridiculous.
 
-## Of What This Means for Daub
+## Of How These Affairs Affect Your Grace's Rule
 
 Three matters follow for Your Grace.
 
-First, to be blunt: Wattle is a thin wall, and Your Grace's vassals hold their legitimacy from King Allant, not from Daub. So long as Allant lives, the arrangement holds. His successor will not be bound by his friendships, and the children of the Dukes of the North are not their parents. I urge Your Grace to bind the vassals to Daub by interest before that day comes.
+First, to be blunt: Your Grace's vassals hold their legitimacy from King Allant, not from Daub. So long as Allant lives, the arrangement holds. His successor will not be bound by his friendships, and the children of the Dukes of the North are not their parents. I urge Your Grace to bind the vassals to Daub by interest before that day comes.
 
 Second, I would advise Your Grace to watch the Concordant College closely. If it succeeds, the LTU will have a rival that the Empire did not build and cannot easily manage, and Daub's magicians will be tempted north by it. If it fails, its sorcerers and alchemists will need somewhere to go, and Daub might do well to be that place.
 
